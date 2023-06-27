@@ -1,0 +1,62 @@
+.shape-image {
+    transform: translate(-52%, -427px);
+}
+img.dropdown-arrow {
+    margin-left: 260;
+}
+header .navbar{
+    padding: 0;
+}
+.contact-list ul {    
+    display: flex;
+}
+.user-setting ul {
+    justify-content: flex-end;
+}
+.main-head {
+    height: 85px;
+}
+header .dropdown-menu {
+    padding: 10px!important;
+}
+.testimonials-content .slick-next.slick-arrow {
+    top: 342px;
+}
+.homebanner-content h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+.poppercrs-box h2 {
+    margin-bottom: 22px;
+}
+.brands-slider img {
+    width: 178px;
+}
+.desktop-none {
+    display: none;
+}
+.popularcourses-item {
+    margin: 4px 4px;
+}
+.carousel-wrap .slick-slide {
+    margin: 0px 5px;
+}
+.carousel-wrap .slick-next, .carousel-wrap .slick-prev {
+    display: none !important;
+}
+.pc-itme-content {
+    padding: 30px;
+    height: auto;
+}
+.ovr-fill{
+    height: 256px;
+}
+.top-spaceing {
+    margin: 12px 0;
+}
+.homebanner-bgimg {
+    top: 80px;
+}
+#faq .card .card-header .btn-header-link.collapsed {
+    font-size: 16px;
+}

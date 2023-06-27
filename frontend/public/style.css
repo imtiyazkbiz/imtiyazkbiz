@@ -1,0 +1,204 @@
+    @charset "utf-8";
+    /* CSS Document */
+    
+    @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+    /*Start Reset CSS Code*/
+    
+    
+    
+    body {
+        line-height: 1;
+        font-family: 'Poppins', sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        background: #f0f3f4;
+    }
+    
+    ol,
+    ul {
+        list-style: none;
+    }
+    
+    blockquote,
+    q {
+        quotes: none;
+    }
+    
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+        content: '';
+        content: none;
+    }
+    
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    /*End Reset CSS Code*/
+    /* ----------------------------------------------- Custom Checkbox ----------------------------------------------- */
+    
+   
+    
+    a,
+    a:active,
+    a:hover,
+    a:visited {
+        text-decoration: none;
+    }
+    
+    .btn.focus,
+    .btn:focus,
+    .btn:hover {
+        outline: none;
+    }
+    /* ------------------------------------------------ End Helper Classes ------------------------------------------------ */
+    
+   
+ .certificate-outer { 
+     width: 1150px; 
+     min-height: 644px; 
+     margin: 15px auto 0 auto; 
+     padding: 15px 0; 
+     border: solid 1px #ddd; 
+     background: #fff; 
+     background-image: url(../images/certi-bottombg.png); 
+     background-repeat: no-repeat; 
+     background-position: bottom right; 
+     position: relative; 
+ } 
+.certificate-outer.print {
+    width: auto;
+    min-height: 644px;
+    margin: 15px;
+    padding: 20px 0;
+    border: solid 1px #ddd;
+    background: #fff;
+    background-image: url(../images/certi-bottombg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    position: relative;
+}
+.certificate-inner {
+    border: solid 4px #19437a;
+    min-height: 614px;
+    background: #fff;
+    text-align: center;
+    
+}
+.certi-top-img {
+    position: absolute;
+    top: -16px;
+    left: 32px;
+}
+.certi-logo {
+    padding: 0px 0 25px 0;
+}
+.certimain-head h1 {
+    font-size: 24px;
+    color: #33caf5;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+}
+.certi-head h2 {
+    font-size: 20px;
+    color: #19447a;
+    margin: 0 0 20px 0;
+    font-weight: 600;
+}
+.certi-name h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    color: #0f0f0f;
+    margin: 0 0 20px 0;
+    font-weight: 600;
+}
+.certi-issued h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    color: #0f0f0f;
+    margin: 0 0 26px 0;
+}
+.certi-date-section {
+    padding: 0 10px;
+    margin-bottom: 26px;
+}
+.certi-date-section span {
+    font-size: 13px;
+    color: #0f0f0f;
+    font-weight: 600;
+}
+.certi-date-section label {
+    font-size: 11px;
+    color: #0f0f0f;
+    font-weight: normal;
+}
+.signature-section {
+    padding: 0 10px;
+    margin-bottom: 40px;
+}
+.signature-img {
+    /* width: 58px; */
+    height: 84px;
+}
+.certi-sign {
+    font-size: 14px;
+    color: #0f0f0f;
+    padding: 4px 0;
+    margin-top:30px;
+    border-top: solid 1px #19447a;
+}
+.certi-footer p {
+    font-size: 11px;
+    color: #0f0f0f;
+    line-height: 20px;
+    padding: 0 20px;
+    margin: 0 0 10px 0;
+}
+.certi-no p {
+    font-size: 14px;
+    color: #0f0f0f;
+    font-weight: 600;
+    margin: 20px 0;
+    text-align: right;
+    padding: 0 20px;
+}
+
+
+
+
+
+    /*Start Media Query --- Please put all respective media queries in bottom of this page*/
+    
+    @media screen and (min-width: 1920px) {
+        .login-left-panel {
+            max-width: 700px;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+       
+    }
+    
+    @media screen and (max-width: 767px) {
+        
+    }
+    
+    @media screen and (max-width: 480px) {}
+    
+    @media screen and (max-width: 320px) {
+        
+    }
+    
+    
+    
+    
+    @media only screen and (max-width: 767px) {
+       
+    
+    
+    
+    }
+    
+   

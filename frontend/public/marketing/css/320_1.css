@@ -1,0 +1,46 @@
+
+.homebanner-bgimg {
+    top: 80px;
+}
+.user-setting input#login_email, .user-setting input#login_password {
+    width: 49%;
+}
+.frgtpswr {
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    padding: 5px 5px;
+}
+.main-head {
+    background-color: #9acc59;
+    height: 135px;
+}
+.subbtn {
+    width: 100%;
+}
+.popularcourses-item {
+    height: auto;
+}
+header .nav-link {
+    position: relative;
+    padding: 8px 5px !important;
+    display: inline-block;
+}
+.carousel-wrap .slick-next {
+
+    right: -15px;
+}
+.carousel-wrap .slick-prev {
+    left: -15px;
+}
+.header-title {
+    font-size: 30px;
+}
+#faq .card .card-header .btn-header-link.collapsed {
+    font-size: 13px;
+}
+img.dropdown-arrow {
+    width: 12px;
+    float: right;
+    margin-top: 17px;
+}

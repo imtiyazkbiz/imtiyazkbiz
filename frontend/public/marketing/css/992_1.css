@@ -1,0 +1,61 @@
+.navbar-brand.brand-img img {
+    width: 128px;
+}
+.user-setting input#login_email, .user-setting input#login_password {
+    width: 25%;
+}
+header .nav-link{
+    font-size: 18px;
+}
+.testimonials-content .slick-next.slick-arrow {
+    top: 307px;
+}
+.subscribersforminput {
+    width: 48%;
+}
+.subbtn {
+    margin-left: 15px;
+    margin-top: 0px;
+}
+.pc-itme-content {
+    height: 330px;
+    padding: 30px 30px 0px 30px;
+}
+.pc-itme-content p{
+    margin-bottom: 10px;
+}
+.poppercrs-box {
+    min-height: 483px;
+}
+.homebanner-bgimg {
+    display: none;
+}
+.homebanner-content p {
+    padding-right: 50px;
+    padding-left: 10px;
+}
+.ovr-fill{
+    height: 330px;
+}
+.top-spaceing {
+    margin: 50px 0;
+}
+form#login-form {
+    display: flex;
+    justify-content: flex-end;
+}
+.subbtn {
+    width: 46%;
+    font-size: 14px;
+}
+.homebanner-content h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+.linkbtn {
+    margin-bottom: 30px;
+}
+.contact-list ul li img {
+    display: inline-block;
+    margin: 0 8px 0 0;
+}

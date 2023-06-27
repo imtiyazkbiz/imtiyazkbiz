@@ -1,0 +1,9 @@
+Question Text,Active Question,Answer Text,Correct Answer,Active Answer
+This is a test question for a lesson?,1,,,
+,,It is a question,1,1
+,,It is not a question,0,1
+,,How should I know,0,1
+,,Please help,0,1
+This is a true/false test question.,1,,,
+,,True  ,1,1
+,,False   ,0,1

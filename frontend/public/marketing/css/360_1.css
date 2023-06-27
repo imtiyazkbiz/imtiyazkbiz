@@ -1,0 +1,29 @@
+
+.homebanner-bgimg {
+    top: 80px;
+}
+.user-setting input#login_email, .user-setting input#login_password {
+    width: 49%;
+}
+.frgtpswr {
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    padding: 5px 5px;
+}
+.main-head {
+    background-color: #9acc59;
+    height: 135px;
+}
+.subbtn {
+    width: 100%;
+}
+.popularcourses-item {
+    height: auto;
+}
+.carousel-wrap .slick-dots {
+    margin: 0;
+}
+#faq .card .card-header .btn-header-link.collapsed {
+    font-size: 16px;
+}

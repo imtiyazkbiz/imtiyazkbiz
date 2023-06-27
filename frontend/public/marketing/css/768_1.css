@@ -1,0 +1,154 @@
+header .nav-link{
+  font-size: 14px;
+}
+header .navbar{
+  padding: 0;
+  height: auto;
+  overflow: inherit;
+}
+.user-setting input#login_email, .user-setting input#login_password {
+  width: 87px;
+}
+img.dropdown-arrow {
+  margin-left: 0;
+  width: auto;
+}
+.testimonials-content .slick-next.slick-arrow {
+    top: 336px;
+  }
+.poppercrs-box {
+    min-height: 540px;
+}
+.mobi-none {
+  display: inherit;
+}
+.footerlogo {
+  text-align: left;
+}
+.footertitle {
+  font-size: 24px;
+  padding-top: 10px;
+}
+.sociallink {
+  justify-content: start;
+}
+.quicklink {
+  text-align: left;
+  margin-top: 0px;
+}
+.Subscribe {
+text-align: left;
+margin-top: 0px;
+}
+.subscribersform.form-inline {
+  display: flex;
+}
+.sub-icon {
+  left: inherit;
+  top: 3px;
+}
+.homebanner-content p {
+  padding-right: 20px;
+}
+.homebanner-content h2 {
+  text-align: center;
+  font-size: 25px;
+}
+h4.serv-text {
+  font-size: 22px;
+  color: #5D5D5D;
+}
+
+.ovr-fill{
+  height: 261px;
+}
+.homebanner-text h1{
+  font-size: 65px;
+}
+.top-spaceing {
+  margin: 20px 0;
+}
+.partner-section {
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+.companyoverview {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.popularcourses-section {
+  padding-bottom: 20px;
+}
+.bannervideo.bg-design::before {
+  display: block;
+}
+/**faq**/
+#faq .card .card-header .btn-header-link {  
+  text-align: left;
+}
+#faq .card .card-header .btn-header-link:after { 
+  display: block;
+}
+.social-box {
+  width: 50%;
+}
+.testimon-item {
+  padding: 0px 20px 0px 0px;
+  display: flex;
+}
+.face-img {
+  border-radius: 10px 0px 0px 10px;
+}
+.face-img {
+  height: 150px;
+}
+.member-name {
+  text-align: left;
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+.member-post {
+  text-align: left;
+}
+.member-foll {
+  text-align: left;
+}
+.face-img.about-img {
+  margin: auto 10px;
+}
+.testimon-item.about-item {
+  padding: 0px;
+  margin-bottom: 10px;
+}
+form#login-form {
+  display: flex;
+  justify-content: flex-end;
+}
+.contact-list ul li img {
+  margin: 0 auto;
+  width: 25px;
+  display: none;
+}
+.pc-itme-content {
+  padding: 30px;
+  height: 395px;
+}
+.video-title h4 {
+  font-size: 20px;
+}
+.subbtn {
+  width: 45%;
+  margin-left: 9px;
+}
+.subscribersforminput {
+  width: 52%;
+}
+.brands-slider img {
+  width: 150px;
+}
+.linkbtn {
+  margin-bottom: 30px;
+}
+.accesspage {
+  min-height: calc(100vh - 530px);
+}
