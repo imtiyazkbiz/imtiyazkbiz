@@ -1,0 +1,45 @@
+<?php
+$router->post('/register', 'CompanyController@register');
+$router->post('/registerMinLocation','CompanyController@registerMinLocation');
+$router->post('/login', 'UserController@login');
+$router->get('/sendEmail','CompanyController@sendEmail');
+$router->post('/welcome_email','CompanyController@welcomeEmail');
+$router->post('/company_dropdown_data','CompanyController@companyDropdownData');
+$router->group(['middleware' => 'auth'],function () use ($router) {
+    
+    $router->post('/data','CompanyController@getData');
+    $router->post('/managerdata','CompanyController@getManagerData');
+    $router->post('/all_locations','CompanyController@allLocations');
+    $router->post('/assigncourse','CompanyController@assignCourse');
+    $router->put('/employee/update','CompanyController@employeeUpdate');
+    $router->put('/update/{id}','CompanyController@update');
+    $router->get('/get/{id}','CompanyController@get');
+    $router->post('/course','CompanyController@companyCourse');
+    $router->post('/courses','CompanyController@courses');
+    $router->get('/courses/{id}','CompanyController@companyCourses');
+    $router->get('/course_folders/{id}','CompanyController@companyCourseFolders');
+    $router->post('/course_folders','CompanyController@CourseFolder');
+    $router->get('/all_courses/{id}','CompanyController@companyAllCourses');
+    $router->get('/company_employee/{id}','CompanyController@companyEmployee');
+    $router->get('/stats/{id}','CompanyController@stats');
+    $router->get('/admin_stats','CompanyController@adminStats');
+    $router->post('/all_companies','CompanyController@allCompanies');
+    $router->put('/change_status/{id}','CompanyController@changeStatus');
+    $router->get('/all','CompanyController@all');
+    $router->get('/getName/{id}','CompanyController@getCompnayName');
+    $router->post('/certificates','CompanyController@certificates');
+    $router->post('/change_course_status','CompanyController@courseStatus');
+    $router->post('/users','CompanyController@users');
+    $router->get('/nonAssignCourse/{companyId}','CompanyController@nonAssignCourse');
+    $router->get('/getlogo','CompanyController@getLogo'); 
+    $router->post('/delete_companies','CompanyController@deleteCompanies');
+    $router->get('/company_dropdown','CompanyController@companyDropdown');
+    $router->get('/parent_company_dropdown','CompanyController@parentCompanyDropdown');
+    $router->post('/child_company_dropdown','CompanyController@childCompanyDropdown');
+    $router->post('/user_onboarding_sign','CompanyController@userOnboardingSign');
+    $router->get('/user_onboarding_documents/{id}','CompanyController@userOnboardingDocuments');
+    $router->post('/user_onboarding_report','CompanyController@userOnboardingReport');
+    $router->post('/useronboarding_save','CompanyController@userOnboardingSave');
+    $router->post('/useronboarding_documentdelete','CompanyController@useronboardingDocumentDelete');
+    $router->get('/user_onboarding_pdf_documents/{id}','CompanyController@userOnboardingPdfDocuments');
+});

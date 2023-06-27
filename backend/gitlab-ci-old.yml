@@ -1,0 +1,20 @@
+stages:
+- deploy
+
+deploy_to_production:
+  image: phpdockerio/php73-cli
+  stage: deploy
+  environment: staging
+  before_script:
+    - apt-get update -yqq
+    - apt-get install git zip unzip curl wget openssh-client -yqq
+    - mkdir "${HOME}/.ssh"
+    - ssh-keyscan -t rsa gantzerdev.com >> ~/.ssh/known_hosts
+    - wget --quiet https://github.com/banago/PHPloy/archive/master.zip
+    - unzip -qq master.zip
+    - mv ./PHPloy-master/dist/phploy.phar phploy
+    - export PHPLOY_USER=$STAGING_USER
+    - export PHPLOY_PASS=$STAGING_PASS
+    - export PHPLOY_PATH=$STAGING_PATH
+  script:
+    - php phploy -s staging
