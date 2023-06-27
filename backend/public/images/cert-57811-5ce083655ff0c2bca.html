@@ -1,0 +1,534 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="css/dcfGeneralStyles.css" rel="Stylesheet" type="text/css">
+<link href="css/dcfDivStyles.css" rel="Stylesheet" type="text/css">
+<link href="css/dcfHeader.css" rel="Stylesheet" type="text/css">
+<link href="css/dcfError.css" rel="Stylesheet" type="text/css">
+<link href="css/screen.css" rel="Stylesheet" type="text/css">
+<link href="css/index.css" rel="Stylesheet" type="text/css">
+
+<script type="text/javascript">
+	var submitVal = 1;
+	function preventMutipleSubmit(){	
+		if(submitVal==1) // 1st submit
+		{
+			  submitVal++;
+	    	  return true;
+		}
+		 else //Multiple submit blocked here
+		{
+			 submitVal++;
+		     return false;
+		}
+ 	}
+ 	
+ 	function validateForm() {
+}	
+</script>
+<noscript></noscript>  
+<!-- BEAN DEFINITIONS-->
+<html>
+<head>
+<title>Session Timed Out</title>
+<!-- Page Title -->
+</head>
+<body>
+	
+
+	<!-- INCLUDE HEADER DO NOT REMOVE THIS DIV -->
+	<div id="dcf_page_container_nextGen_header">
+		
+
+
+
+
+<script type="text/vbscript">
+        Function makeMsgBox(title, mess, icon, buts, defbut, mods)
+         butVal = buts + (icon * 16) + (defbut * 256) + (mods * 4096)
+         makeMsgBox = MsgBox(mess, butVal, title)
+         End Function
+        </script>
+<noscript></noscript>
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+
+<!-- Include the master js file -->
+<script type="text/javascript" src="js/headerFunction.js"></script>
+<noscript></noscript>
+<script type="text/javascript" src="js/functions.js"></script>
+<noscript></noscript>
+<script type="text/javascript" src="js/timeout.js"></script>
+<noscript></noscript>
+<script type="text/javascript" src="js/javascript_cookies.js"></script>
+<noscript></noscript>
+
+
+
+<style id="antiClickjack">body{display:none !important;}</style>
+<script type="text/javascript">
+    if (self === top) {
+        var antiClickjack = document.getElementById("antiClickjack");
+        antiClickjack.parentNode.removeChild(antiClickjack);
+    } else {
+        top.location = self.location;
+    }
+</script><noscript></noscript>
+
+
+<!-- Set English as default Language. Set image prefix to be used in all pages.-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+
+
+
+<!-- Set accessFLTranslation as base bundle name. -->
+
+<!--PAGE BANNER-->
+
+<table cellspacing="0" align="center" cellpadding="0">
+	<tr>
+		<td>
+			<div id="dcf_page_header">
+				<table class="dcf_logotable" cellpadding="0" cellspacing="0">
+					<tr>
+						<td colspan="5">
+							<div id="banner">
+								<span class="screenReaderOnly"> <a href="#skipPoint"
+									title="Skip to Main Content upon Clicking on me">Skip to
+										Main Content upon Clicking on me</a>
+								</span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: 17%;vertical-align: middle;">
+							<div id="dcflogoDiv" align="right">
+								<img src="images/DCF_Logo.png" width="80px" height="88px"
+									style="bottom: 1px" align="middle"
+									alt="DCF LOGO">
+							</div>
+						</td>
+						<td style="width: 3%">&nbsp;</td>
+						<td style="width: 35%">
+							<div id="accessNameDiv">
+								<!-- Needs to be changed -->
+								<table class="accessNameDivText">
+									<tr>
+										<td class="accessNameDivText">ACCESS Florida</td>
+									</tr>
+								</table>
+							</div>
+						</td>
+						<td>
+							<!-- Image name for the region --> <img
+							src="images/blank.gif"
+							alt="Shows the server region. " />
+						</td>
+
+						<td style="width: 35%">
+								<div id="headerLinksDiv" align="center">
+									<a
+										href="scrflsessionerror.do?performAction=changeLocale&amp;language=english&amp;source="
+										class="white-link">English</a> | <a
+										href="scrflsessionerror.do?performAction=changeLocale&amp;language=spanish&amp;source="
+										class="white-link">Español</a> | <a
+										href="scrflsessionerror.do?performAction=changeLocale&amp;language=creole&amp;source="
+										class="white-link">Kreyòl</a>
+								</div>
+								<div id="headerLinksDiv" align="center">
+									
+								</div>
+								<div id="headerVideoLinksDiv" align="center">
+									
+								</div>
+							</td>
+					</tr>
+				</table>
+			</div>
+		</td>
+	</tr>
+</table>
+
+
+<script type="text/javascript">
+	function saveQuit() {
+		applType = '';
+		if (applType == null || applType == '') {
+			msg = 'Important Information.  Please Read.' + '\n\n';
+			msg = msg + 'You have told us you want to save and exit your application at this time. You have not finished your application. We cannot determine how we can help you if you do not finish and submit your application. We encourage you to answer as many questions as you can and submit it today.' + '\n\n';
+			msg = msg + 'If you tell us as much as you can about your situation, we will be able to finish your application faster. The date you turn in your application will tell us when to begin your benefits.' + '\n\n';
+			msg = msg + 'If you do not want to finish your application today, you may save it and finish it later using your My ACCESS account. You have 60 days to sign and submit your application. The day you started the application begins the 60-day period. We delete unsigned applications after 60 days.' + '\n\n';
+			msg = msg + 'Are you sure you want to quit?';
+		} else {
+			msg = 'Important Information. Please Read.' + '\n\n';
+			msg = msg + 'Are you sure you want to stop here?' + '\n\n';
+			msg = msg + 'If you quit, you will be logged out and you will need to start over. Any information you have entered will not be saved.' + '\n\n';
+			msg = msg + 'Are you sure you want to quit?' + '\n\n';
+			msg = msg + '';
+		}
+		if (clientConfirm(msg, "Message")) {
+			if (navigator.appName == "Microsoft Internet Explorer") {
+				var version = navigator.appVersion;
+				var versnum = version.substring(17, 25);
+				if (versnum == 'MSIE 7.0') {
+					window.open('', '_self');
+				} else {
+					window.opener = self;
+				}
+				window.close();
+			} else {
+				window.open('', '_parent', '');
+				window.close();
+			}
+			return true;
+		} else {
+			return false;
+		}
+
+	}
+
+	function quitApplication() {
+		var applType = '';
+		var applNumber = '';
+		var sPath = window.location.pathname;
+		var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
+		var mesg1;
+		if (applNumber == '0' || applNumber == '') {
+			if (navigator.appName == "Microsoft Internet Explorer") {
+				var version = navigator.appVersion;
+				var versnum = version.substring(17, 25);
+				if (versnum == 'MSIE 7.0') {
+					window.open('', '_self');
+				} else {
+					window.opener = self;
+				}
+				window.close();
+			} else {
+				window.open('', '_parent', '');
+				window.close();
+			}
+			if (loginUrlT != '') {
+				window.location.href = loginUrlT;
+			}
+		}
+		if (sPage == "scrfluserfeedback.do"
+				|| sPage == "scrfluserfeedbackforchanges.do") {
+			if (navigator.appName == "Microsoft Internet Explorer") {
+				var version = navigator.appVersion;
+				var versnum = version.substring(17, 25);
+				if (versnum == 'MSIE 7.0') {
+					window.open('', '_self');
+				} else {
+					window.opener = self;
+				}
+				window.close();
+			} else {
+				window.open('', '_parent', '');
+				window.close();
+			}
+			if (loginUrlT != '') {
+				window.location.href = loginUrlT;
+			}
+		} else if (sPage == "scrflthankyou.do") {
+			mesg1 = 'Would you be willing to complete a survey?';
+			if (clientConfirm(mesg1, "Message")) {
+				if (applType == null || applType == '') {
+					window.location.href = "scrfluserfeedback.do?performAction=init";
+				} else {
+					window.location.href = "scrfluserfeedbackforchanges.do?performAction=init";
+				}
+				return false;
+			} else {
+				if (navigator.appName == "Microsoft Internet Explorer") {
+					var version = navigator.appVersion;
+					var versnum = version.substring(17, 25);
+					if (versnum == 'MSIE 7.0') {
+						window.open('', '_self');
+					} else {
+						window.opener = self;
+					}
+					window.close();
+				} else {
+					window.open('', '_parent', '');
+					window.close();
+				}
+				if (loginUrlT != '') {
+					window.location.href = loginUrlT;
+				}
+			}
+		} else {
+
+			if (applType == null || applType == '') {
+				mesg1 = 'Important Information.  Please Read.' + '\n\n';
+				mesg1 = mesg1 + 'You have told us you want to save and exit your application at this time. You have not finished your application. We cannot determine how we can help you if you do not finish and submit your application. We encourage you to answer as many questions as you can and submit it today.' + '\n\n';
+				mesg1 = mesg1 + 'If you tell us as much as you can about your situation, we will be able to finish your application faster. The date you turn in your application will tell us when to begin your benefits.' + '\n\n';
+				mesg1 = mesg1 + 'If you do not want to finish your application today, you may save it and finish it later using your My ACCESS account. You have 60 days to sign and submit your application. The day you started the application begins the 60-day period. We delete unsigned applications after 60 days.' + '\n\n';
+				mesg1 = mesg1 + 'Are you sure you want to quit?';
+			} else {
+				mesg1 = 'Important Information. Please Read.' + '\n\n';
+				mesg1 = mesg1 + 'Are you sure you want to stop here?'
+						+ '\n\n';
+				mesg1 = mesg1 + 'If you quit, you will be logged out and you will need to start over. Any information you have entered will not be saved.'
+						+ '\n\n';
+				mesg1 = mesg1 + 'Are you sure you want to quit?'
+						+ '\n\n';
+				mesg1 = mesg1 + '';
+			}
+			if (clientConfirm(mesg1, "Message")) {
+				if (sPage != "scrflexpeditefoodstamps.do") {
+					mesg1 = 'Would you be willing to complete a survey?';
+					if (clientConfirm(mesg1, "Message")) {
+						if (applType == null || applType == '') {
+							window.location.href = "scrfluserfeedback.do?performAction=init";
+						} else {
+							window.location.href = "scrfluserfeedbackforchanges.do?performAction=init";
+						}
+						return false;
+					} else {
+						if (navigator.appName == "Microsoft Internet Explorer") {
+							var version = navigator.appVersion;
+							var versnum = version.substring(17, 25);
+							if (versnum == 'MSIE 7.0') {
+								window.open('', '_self');
+							} else {
+								window.opener = self;
+							}
+							window.close();
+						} else {
+							window.open('', '_parent', '');
+							window.close();
+						}
+						if (loginUrlT != '') {
+							window.location.href = loginUrlT;
+						}
+					}
+				} else {
+					if (navigator.appName == "Microsoft Internet Explorer") {
+						var version = navigator.appVersion;
+						var versnum = version.substring(17, 25);
+						if (versnum == 'MSIE 7.0') {
+							window.open('', '_self');
+						} else {
+							window.opener = self;
+						}
+						window.close();
+					} else {
+						window.open('', '_parent', '');
+						window.close();
+					}
+					if (loginUrlT != '') {
+						window.location.href = loginUrlT;
+					}
+				}
+			} else {
+				refreshPage();
+				return false;
+			}
+		}
+	}
+
+	var heading = "WARNING";
+	var text = "<p align=\"justify\">Your session is about to time out.</p><br>"
+			+ "<p align=\"justify\">If you are working on an application and do not click 'Continue', your application will be saved up to the last screen you finished. You can come back and finish your application by using your My ACCESS account. Unfinished applications will be deleted after 60 days.</p><br/>"
+			+ "<p align=\"justify\">If you are reporting a Change to your case and do not click 'Continue', you will be logged out and you will need to start over. Any information you have entered will not be saved.</p><br/>"
+			+ "<p align=\"justify\">If you are completing a Review and do not click 'Continue', you will be logged out and you will need to start over. Any information you have entered will not be saved.</p><br/>"
+			+ "<p align=\"justify\">If you are requesting Additional Benefits and do not click 'Continue', you will be logged out and you will need to start over. Any information you have entered will not be saved.</p><br/>"
+			+ "<p align=\"justify\">If you are requesting that your case be Closed and do not refresh, you will be logged out and you will need to start over to report the change. Any information you have entered will be lost.</p><br/>"
+			+ "<p align=\"justify\">To logout now, select 'Exit'.</p><br/>"
+			+ "<p align=\"justify\">If you want to continue with this session, click the 'Continue' button now.</p>";
+	document.write(getWarning(heading, text));
+
+	if ('' == '0' || '' == '') {
+		nonAppModule = true; // declared and used in timeout.js
+	}
+
+	autoCompleteOff();
+</script>
+<noscript></noscript>
+
+<script type="text/vbscript">
+                Function makeMsgBox(title, mess, icon, buts, defbut, mods)
+                 butVal = buts + (icon * 16) + (defbut * 256) + (mods * 4096)
+                 makeMsgBox = MsgBox(mess, butVal, title)
+                 End Function
+                </script>
+<noscript></noscript>
+
+<script type="text/javascript">
+	
+
+	
+
+	
+</script>
+<noscript></noscript>
+
+
+	</div>
+
+
+	<!-- OPEN PAGE CONTAINER -->
+	<div id="dcf_page_container">
+		<table cellspacing="0" align="center">
+			<tbody>
+				<tr>
+					<td>
+						<!-- Put the action fo the form here--> <form name="scrFLSessionErrorForm" method="post" action="/access/scrflsessionerror.do" onsubmit="return preventMutipleSubmit()">
+							<!-- HIDDEN VARIABLES-->
+
+							<table cellspacing="0" align="center">
+								<tbody>
+									<tr>
+										<td>&nbsp;</td>
+									</tr>
+
+									<!-- Put a logical condition to show up the error messages only when the page has some.-->
+									
+									<!-- End of the logical decision on message -->
+									<tr>
+										<td>
+											<!-- OPEN CONTENT DO NOT REMOVE THIS DIV-->
+											<div id="dcf_page_body">
+												<table cellspacing="0" cellpadding="0" align="center">
+													<tbody>
+														<tr>
+															<td>
+																<!-- CONTENT HEADER DIV DO NOT REMOVE -->
+																<div id="dcf_page_body_header">
+																	<table cellspacing="0" align="center">
+																		<tbody>
+																			<tr>
+																				<td width="100%">
+																					<div>
+																						<table cellspacing="0" align="center">
+																							<tr>
+																								<td style="white-space: nowrap;">
+																									<h1>
+																										<!-- Specify the header message -->
+																										Session Timed Out
+																									</h1>
+																								</td>
+																								<td width="100%">
+																									<hr />
+																								</td>
+																							</tr>
+																							<tr>
+																								<td colspan="2">&nbsp;</td>
+																							</tr>
+																						</table>
+																					</div>
+																				</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div> <!-- CLOSE CONTENT HEADER DIV--> <!-- PAGE INFORMATION DIV DO NOT REMOVE-->
+																<div>
+																	<table cellspacing="0" align="center">
+																		<tbody>
+																			<tr>
+																				<td>&nbsp;</td>
+																			</tr>
+																			<!-- INFORMATION COLLECTION DIV'S -->
+																			<tr>
+																				<td>
+																					<fieldset>
+																						<!-- This will put up the boundary for the sections-->
+																						<legend>
+																							Error
+																							<!-- Name of the corresponding Section -->
+																						</legend>
+																						<div class="fieldset_outer_table">
+																							<table class="fieldset_content_table"
+																								cellspacing="0">
+																								<tr>
+																									<td>&nbsp;</td>
+																								</tr>
+
+													                                       
+
+													                                       
+																								<tr>
+																									<td align="center"><b>System Error</b> Your session has been lost.&nbsp;Wed Mar 20 19:42:57 EDT 2019
+ <br> <br> <br> <b>Please click on the RESTART button:</b> By selecting 'Restart' you will return to the "Welcome" screen.</td>
+																								</tr>
+																								<tr>
+																									<td colspan="2">&nbsp;</td>
+																								</tr>
+																								<tr>
+																									<td colspan="2" align="center">
+																										<input type="image" name="imgRestart" src="images/EN/Restart_3.png" class="restartButton" alt="Restart Image Button">
+																										</td>
+																										
+																								</tr>
+													                                       
+
+																							</table>
+																						</div>
+																					</fieldset>
+																				</td>
+																			</tr>
+																			<tr>
+																				<td>&nbsp;</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div> <!-- CLOSE PAGE INFORMATION -->
+
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</div> <!-- CLOSE CONTENT DIV -->
+										</td>
+									</tr>
+									
+								</tbody>
+							</table>
+						</form> <!-- CLOSE FORM DO NOT REMOVE-->
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<!-- CLOSE PAGE CONTAINER DO NOT REMOVE-->
+</body>
+</html>

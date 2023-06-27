@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)https://www.homeoftraining.com/certs.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>My Certificates</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" href="https://www.homeoftraining.com/images/favicon.png" type="image/x-icon">
+
+<script src="./Erinliquorcertification_files/counter.js.download"></script>
+<link rel="stylesheet" type="text/css" href="./Erinliquorcertification_files/master.css">
+<link rel="stylesheet" type="text/css" href="./Erinliquorcertification_files/lity.css">
+<script async="" src="./Erinliquorcertification_files/zepto.js.download"></script>
+
+
+
+
+<script type="text/javascript" src="./Erinliquorcertification_files/jquery.min.js.download"></script>
+
+<script type="text/javascript" src="./Erinliquorcertification_files/pop.js.download"></script>
+
+
+<script language="javascript">
+
+$(function()
+{
+    $('#sort-container').sortable({
+	containment: 'parent',
+	update: function(e, ui)
+	{
+	    var container = ui.item.closest('#sort-container');
+	    var url = $('#sort-container').attr('data-href');
+	    if (url)
+	    {
+		var ids = container.find('> .pane-record').map(function() { return $(this).attr('data-id'); }).toArray();
+		$.post(url, { 'ids[]': ids }, function(res) {
+		});
+	    }
+	}
+    });
+});
+$(function()
+{
+    $('#sort-container2').sortable({
+	containment: 'parent',
+	update: function(e, ui)
+	{
+	    var container = ui.item.closest('#sort-container2');
+	    var url = $('#sort-container2').attr('data-href');
+	    if (url)
+	    {
+		var ids = container.find('> .pane-record').map(function() { return $(this).attr('data-id'); }).toArray();
+		$.post(url, { 'ids[]': ids }, function(res) {
+		});
+	    }
+	}
+    });
+});
+
+
+function limage(src)
+{
+    var data = "<img src='" + src + "'>";
+    jQuery('.LIGHTBOX').html("");
+    jQuery('.LIGHTBOX').html(data);
+    jQuery.featherlight('.LIGHTBOX', {});
+}
+
+function lopen(url)
+{
+    $.get(url + "&rand=" + Math.random(),
+function(data, status)
+{
+//    alert(status + '/' + data.length);
+//return;
+    jQuery('.LIGHTBOX').html("");
+    jQuery('.LIGHTBOX').html(data);
+    jQuery.featherlight('.LIGHTBOX', {});
+});
+}
+
+
+function lsend(tbl, id, action)
+{
+    $.get("tblsend.php?rand=" + Math.random() + "&tbl=" + tbl + "&id=" + id + '&action=' + action, function(data, status){
+    if(data != 'ok')
+	alert('Error: ' + data);
+    });
+}
+
+</script>
+
+<!-- START LIGHT CONTENT -->
+<link type="text/css" rel="stylesheet" href="./Erinliquorcertification_files/featherlight.min.css">
+<script src="./Erinliquorcertification_files/jquery-1.7.0.min.js.download"></script>
+<script src="./Erinliquorcertification_files/featherlight.min.js.download" type="text/javascript" charset="utf-8"></script>
+<!-- END LIGHT CONTENT -->
+
+
+</head>
+<body>
+
+<div class="shcont">
+<div class="shl50"><a href="tel:844.99.TRAIN" class="shlinksb"><img src="./Erinliquorcertification_files/phone-icon.png" alt="Icon" class="shicon">
+<span class="mobilenoshow">844.99.TRAIN</span></a><a href="mailto:support@homeoftraining.com" class="shlinks"><img src="./Erinliquorcertification_files/email-icon.png" alt="Icon" class="shicon">
+<span class="mobilenoshow">support@homeoftraining.com</span></a></div><div class="shr50"><span class="greeting">Welcome Erin Dalton - Manager at Mulligan's Beach House - Jensen Beach</span>
+<a href="https://www.homeoftraining.com/logout.php" class="shout">Logout</a></div>
+
+</div>
+
+
+<div class="navdrop" id="myTopnav">
+
+
+<div class="nav40l">
+<a href="https://www.homeoftraining.com/certs.php#" class="ndbtn"><img src="./Erinliquorcertification_files/logo.png" alt="logo" class="navlogo"></a>
+
+
+</div><div class="mobilemenu60"><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a></div><div class="nav60r">
+
+<a href="https://homeoftraining.com/" class="ndbtn mmh"><span class="navtheight mmmar">Dashboard</span></a>
+
+<div href="#" class="dropdown ndbtn mmh"><span class="navtheight mmmar">My Details <span class="caretsize">&#9660;</span></span>
+<div class="dropdown-content" style="">
+
+<div class="dropblock30">
+<div class="dropblocktitle"><img src="./Erinliquorcertification_files/profile-icon.png" alt="Icon" class="drop-icons"> My Profile</div>
+<p class="drop-text-para">Edit your profile by clicking the button below.</p>
+<a href="https://www.homeoftraining.com/profile.php" class="drop-cta-btn">Edit Profile</a>
+</div>
+
+<div class="dropblock30">
+<div class="dropblocktitle"><img src="./Erinliquorcertification_files/lock-icon.png" alt="Icon" class="drop-icons"> Update Password</div>
+<p class="drop-text-para">Click the button below to update your password.</p>
+<a href="https://www.homeoftraining.com/passwd.php" class="drop-cta-btn">Update Password</a>
+</div>
+ 
+
+</div></div>
+
+
+<div href="#" class="dropdown ndbtn mmh"><span class="navtheight mmmar">Company Management <span class="caretsize">&#9660;</span></span>
+<div class="dropdown-content" style="">
+
+<div class="dropblock30">
+<div class="dropblocktitle"><img src="./Erinliquorcertification_files/location-icon.png" alt="Icon" class="drop-icons"> Locations</div>
+<p class="drop-text-para">View your locations within our system.</p>
+<a href="https://www.homeoftraining.com/manlocs.php" class="drop-cta-btn">View Locations</a>
+</div>
+
+
+
+<div class="dropblock30">
+<div class="dropblocktitle"><img src="./Erinliquorcertification_files/certificates-icon.png" alt="Icon" class="drop-icons"> Certificates</div>
+<p class="drop-text-para">Click the button below to view employee certificates.</p>
+<a href="https://www.homeoftraining.com/mancerts.php" class="drop-cta-btn">View Certificates</a>
+</div>
+
+<div class="dropblock30">
+<div class="dropblocktitle"><img src="./Erinliquorcertification_files/employees-icon.png" alt="Icon" class="drop-icons"> Employees</div>
+<p class="drop-text-para">View a list of your employees within our system.</p>
+<a href="https://www.homeoftraining.com/manusers.php" class="drop-cta-btn">View Employees</a>
+</div>
+
+
+</div></div>
+
+
+<div href="#" class="dropdown ndbtn mmh"><span class="navtheight mmmar">My Course Management <span class="caretsize">&#9660;</span></span>
+<div class="dropdown-content" style="">
+
+<div class="dropblock30">
+<div class="dropblocktitle"><img src="./Erinliquorcertification_files/certificates-icon.png" alt="Icon" class="drop-icons"> My Certificates</div>
+<p class="drop-text-para">Click the button below to view your certificates.</p>
+<a href="https://www.homeoftraining.com/certs.php" class="drop-cta-btn">View Certificates</a>
+</div>
+
+
+
+<div class="dropblock30">
+<div class="dropblocktitle"><img src="./Erinliquorcertification_files/course-icon.png" alt="Icon" class="drop-icons"> Required Courses</div>
+<p class="drop-text-para">Click the button below to view &amp; take courses online.</p>
+<a href="https://www.homeoftraining.com/courses.php" class="drop-cta-btn">View Courses</a>
+</div>
+
+
+</div></div>
+
+<!--
+<li class="mobilenoshow"><a href="resource.php" class="mobilenoshow">Resources &#9662;</a>
+<ul  class="mobilenoshow">
+<li class="mobilenoshow">
+<a href="./resource.php?id=57a365bd594a11fc">Alcohol FAQ</a>
+</li><li class="mobilenoshow">
+<a href="./resource.php?id=57a370ea5b121d29">Alcohol Content Guide</a>
+</li><li class="mobilenoshow">
+<a href="./resource.php?id=57a371020f431d41">Key Terms</a>
+</li><li class="mobilenoshow">
+<a href="./resource.php?id=57a37118594d1d57">BAC Chart</a>
+</li><li class="mobilenoshow">
+<a href="./resource.php?id=57a371285b131d67">BAC Calculator</a>
+</li><li class="mobilenoshow">
+<a href="./resource.php?id=57a3713515db1d74">State Driving Laws</a>
+</li><li class="mobilenoshow">
+<a href="./resource.php?id=57a3ac97594b1339">Service Agreement</a>
+</li><li class="mobilenoshow">
+<a href="./resource.php?id=57a3ad11594a13b3">Terms & Conditions</a>
+</li><li class="mobilenoshow">
+<a href="./resource.php?id=57a3ad99594e143b">Privacy Policy</a>
+</li><li class="mobilenoshow">
+<a href="./resource.php?id=57a3add3594a1475">Refund Policy</a>
+</li>
+</ul>
+</li>
+-->
+
+
+<div href="#" class="dropdown ndbtn mmh"><span class="navtheight mmmar">Resources <span class="caretsize">&#9660;</span></span>
+<div class="dropdown-content" style="">
+
+
+<div class="dropblock25">
+
+<div class="dropblocktitle"><img src="./Erinliquorcertification_files/faq-icon.png" alt="Icon" class="drop-icons"> Alcohol FAQ</div>
+<p class="drop-text-para">Read alcohol FAQs by clicking the button below.</p>
+<a href="https://www.homeoftraining.com/resource.php?id=57a365bd594a11fc" class="drop-cta-btn">View Alcohol FAQs</a>
+</div><div class="dropblock25">
+
+<div class="dropblocktitle"><img src="./Erinliquorcertification_files/drink-icon.png" alt="Icon" class="drop-icons"> Alcohol Content Guide</div>
+<p class="drop-text-para">Learn more about alcohol content by clicking the button below.</p>
+<a href="https://www.homeoftraining.com/resource.php?id=57a370ea5b121d29" class="drop-cta-btn">View Guide</a>
+</div><div class="dropblock25">
+
+<div class="dropblocktitle"><img src="./Erinliquorcertification_files/course-icon.png" alt="Icon" class="drop-icons"> Key Terms</div>
+<p class="drop-text-para">Click the button below to view our alcohol key terms library.</p>
+<a href="https://www.homeoftraining.com/resource.php?id=57a371020f431d41" class="drop-cta-btn">View Key Terms</a>
+</div><div class="dropblock25">
+<div class="dropblocktitle"><img src="./Erinliquorcertification_files/poster-icon.png" alt="Icon" class="drop-icons"> Posters</div>
+<p class="drop-text-para">Click the button below to view helpful posters.</p>
+<a href="https://www.homeoftraining.com/posters.php" class="drop-cta-btn">View Posters</a>
+</div>
+
+
+</div></div>
+
+</div>
+</div>
+
+<div style="text-align:center; margin-left:auto; margin-right:auto;">
+<div id="LIGHTBOX" class="LIGHTBOX lightbox fonttx">
+</div>
+</div>
+
+
+<span class="mobile-greeting desktopnoshow">Welcome Erin Dalton - Manager at Mulligan's Beach House - Jensen Beach</span>
+
+
+
+
+<div class="new-page-titletour">My Certificates</div><p>&nbsp;</p><p>&nbsp;</p>
+<h2 style="display:block; text-align:center; width:100%;"><div class="cert-type-green">
+Valid Certificates
+</div>
+ 
+
+ 
+
+<form action="https://www.homeoftraining.com/cert.php" target="_blank" method="POST">
+<input name="q" value="YToxOntpOjA7czo4OiI1Njc3NQk0MCI7fQ==" type="hidden">
+<input name="valid" value="1" type="hidden">
+
+</form>
+
+
+<span id="">
+<a name="TABLE"></a>
+
+<div class="record-row-cont-top">
+<div class="record-item-half font-white">Actions</div>
+
+<div class="record-item-course font-white">Course Name</div>
+<div class="record-item-trip font-white">Completed Date</div>
+<div class="record-item-trip font-white">Expiration date</div>
+</div>
+
+<div class="record-row-cont roww">
+<div class="record-title-mobile">Actions: </div><div class="record-item-half">
+<a href="https://www.homeoftraining.com/cert.php?xid=NTY3NzUJNDA=" target="_blank" class="icon-img-cont icon-green tooltip"><img src="./Erinliquorcertification_files/cert-icon.png" alt="View Certificate" class="icon-edit"><span class="tooltiptext">View Certificate</span></a>
+</div>
+
+
+<div class="record-title-mobile">Course Name: </div><div class="record-item-course">Responsible Vendor Alcohol Training - Manager (Florida)</div>
+
+<div class="record-title-mobile">Completed Date:
+</div><div class="record-item-trip">06/14/2019</div>
+
+<div class="record-title-mobile">Expiration date:
+</div><div class="record-item-trip">10/12/2019</div>
+
+</div>
+</span>
+<br></h2>
+
+<p>&nbsp;</p><p>&nbsp;</p>
+<div class="cert-type-green">Uploaded Certificates</div>
+<div class="record-row-cont-top">
+<div class="record-item font-white">Actions</div>
+<div class="record-item-course font-white">Certificate Name</div>
+</div>
+
+
+
+
+<!--
+<div style="overflow-x:auto; max-width:950px; margin-left:auto; margin-right:auto;" class="reta fonttx">
+</div>
+</div>
+-->
+
+
+<form action="https://www.homeoftraining.com/mcert.php" method="post" enctype="multipart/form-data" target="5d03ee337e4f0ae7">
+
+
+ <style>
+ input[type="file"] {
+    display: none;
+}
+</style>
+
+<style>
+.certbn{width:44%; margin:2%; display:inline-block; text-align:center;  color:#fff; padding-top:5px; padding-bottom:5px; vertical-align:text-top; font-size:22px; border-radius:5px; -webkit-appearance: none;}
+
+.certbn{background: linear-gradient(to bottom, #44871c 0%,#539e26 100%);  border: none; border-radius: 5px; border-bottom: 5px solid #356318; color: #fbfbfb; text-shadow: 2px 2px 2px rgba(0,0,0,.4); text-indent: 5px; box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2); text-decoration:none;}
+
+
+
+.button1blueg{background: linear-gradient(to bottom, #c90000 0%,#990000 100%);  border: none; border-radius: 5px; border-bottom: 5px solid #680000; color: #fbfbfb; text-shadow: 2px 2px 2px rgba(0,0,0,.4); text-indent: 5px; box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2); text-decoration:none;}
+
+
+.button1blueg:hover, .certbn:hover{background: linear-gradient(to bottom, #333 0%,#333 100%);  border: none; border-radius: 5px; border-bottom: 5px solid #15181c; color: #fbfbfb; text-shadow: 2px 2px 2px rgba(0,0,0,.4); text-indent: 5px; box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2); text-decoration:none; cursor:pointer;}
+
+</style>
+
+<p>&nbsp;</p>
+
+ 
+
+<h2 style="display:block; text-align:center; width:100%;">Upload Certificate</h2>
+
+<div style="display:block; text-align:center;">
+<input type="text" name="name" placeholder="Certificate Name" class="new-input-80" style="border-radius:5px; width:50%; margin-left:auto; margin-right:auto;">
+<br>
+
+ 
+<label for="file-upload" class="certbn button1colors" style="background-color:#1d62ac;">
+    <i class="fa fa-cloud-upload"></i> Select File
+</label>
+<input id="file-upload" type="file" name="img">
+
+
+<input type="submit" value="Upload Certificate" class="certbn button1colors">
+</div>
+</form>
+<div class="footercont">
+<div class="footer50l">
+<a href="https://www.homeoftraining.com/refund-policy.html" class="footerlinks">Refund Policy</a>
+<a href="https://www.homeoftraining.com/privacy-policy.html" class="footerlinks">Privacy Policy</a>
+<a href="https://www.homeoftraining.com/terms-and-conditions.html" class="footerlinks">Terms &amp; Conditions</a>
+ 
+</div><div class="footer50r"><a class="ftlinknoa">© 2007<script>new Date().getFullYear()>2007&&document.write("-"+new Date().getFullYear());</script>-2019, Home of Training. <span class="desktopnoshow"><br></span> All Rights Reserved.</a>
+ </div>
+
+</div>
+
+
+<script>
+$(function(){
+
+    $('.dropdown').on('click', function(e){
+        if(Modernizr.mq('screen and (max-width:767px)')) {
+            e.preventDefault();
+            $(this).next($('.dropdown-content')).slideToggle();
+        }
+    });
+
+    $(window).resize(function() {
+        $('.dropdown-content').attr("style", "");
+    });
+
+});
+</script>
+
+<style>
+.button1{padding-left:10px; padding-right:10px; display:inline-block; text-align:center;  color:#fff; height:50px; line-height:50px; margin-top:10px; margin-bottom:10px; vertical-align:text-top; font-size:22px; border-radius:5px;}
+
+.button1{background: linear-gradient(to bottom, #44871c 0%,#539e26 100%);  border: none; border-radius: 5px; border-bottom: 5px solid #356318; color: #fbfbfb; text-shadow: 2px 2px 2px rgba(0,0,0,.4); text-indent: 5px; box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2); text-decoration:none;}
+
+
+
+.button1blueg{background: linear-gradient(to bottom, #c90000 0%,#990000 100%);  border: none; border-radius: 5px; border-bottom: 5px solid #680000; color: #fbfbfb; text-shadow: 2px 2px 2px rgba(0,0,0,.4); text-indent: 5px; box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2); text-decoration:none;}
+
+
+.button1blueg:hover, .button1:hover{background: linear-gradient(to bottom, #333 0%,#333 100%);  border: none; border-radius: 5px; border-bottom: 5px solid #15181c; color: #fbfbfb; text-shadow: 2px 2px 2px rgba(0,0,0,.4); text-indent: 5px; box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2); cursor:pointer; text-decoration:none;}
+
+</style>
+
+
+ 
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "navdrop") {
+        x.className += " responsive";
+    } else {
+        x.className = "navdrop";
+    }
+}
+</script>
+
+
+
+
+
+<span style="display: none"><iframe id="5d03ee337e4f0ae7" name="5d03ee337e4f0ae7" src="./Erinliquorcertification_files/saved_resource.html"></iframe></span>
+
+</body></html>

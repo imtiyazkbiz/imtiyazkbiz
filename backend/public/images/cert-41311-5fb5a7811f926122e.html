@@ -1,0 +1,801 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+
+
+    var disableSegmentForGTM = Boolean('True');
+    </script>
+    <meta charset="utf-8" />
+    <!-- <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Resume-Now</title>
+    
+
+    <link rel="shortcut icon" href="https://www.resume-now.com/blobcontent/clb/cln/images/favicon.ico" />
+
+    
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600&display=swap"
+          rel="stylesheet" />
+    <link rel="stylesheet"
+          href="https://www.resume-now.com/blobcontent/rna/styles/fontawesome-pro-5.10.1/fontawesome-all.min.css" />
+
+        <link href="https://app.resume-now.com/Content/css/JT-RN-document-home/themes/rn/document-home/main.css" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.34.4/es6-shim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+    
+
+
+
+
+
+
+<script type="text/javascript" async>
+        if ('4' == '4') {
+            var sampleRate = 5;
+            var y = Math.floor((Math.random() * 10) + 1); var x = y % sampleRate; if (x == 0) {
+                window.NREUM || (NREUM = {}), __nr_require = function (t, n, e) { function r(e) { if (!n[e]) { var o = n[e] = { exports: {} }; t[e][0].call(o.exports, function (n) { var o = t[e][1][n]; return r(o || n) }, o, o.exports) } return n[e].exports } if ("function" == typeof __nr_require) return __nr_require; for (var o = 0; o < e.length; o++) r(e[o]); return r }({ 1: [function (t, n, e) { function r(t) { try { s.console && console.log(t) } catch (n) { } } var o, i = t("ee"), a = t(15), s = {}; try { o = localStorage.getItem("__nr_flags").split(","), console && "function" == typeof console.log && (s.console = !0, o.indexOf("dev") !== -1 && (s.dev = !0), o.indexOf("nr_dev") !== -1 && (s.nrDev = !0)) } catch (c) { } s.nrDev && i.on("internal-error", function (t) { r(t.stack) }), s.dev && i.on("fn-err", function (t, n, e) { r(e.stack) }), s.dev && (r("NR AGENT IN DEVELOPMENT MODE"), r("flags: " + a(s, function (t, n) { return t }).join(", "))) }, {}], 2: [function (t, n, e) { function r(t, n, e, r, o) { try { d ? d -= 1 : i("err", [o || new UncaughtException(t, n, e)]) } catch (s) { try { i("ierr", [s, c.now(), !0]) } catch (u) { } } return "function" == typeof f && f.apply(this, a(arguments)) } function UncaughtException(t, n, e) { this.message = t || "Uncaught error with no additional information", this.sourceURL = n, this.line = e } function o(t) { i("err", [t, c.now()]) } var i = t("handle"), a = t(16), s = t("ee"), c = t("loader"), f = window.onerror, u = !1, d = 0; c.features.err = !0, t(1), window.onerror = r; try { throw new Error } catch (l) { "stack" in l && (t(8), t(7), "addEventListener" in window && t(5), c.xhrWrappable && t(9), u = !0) } s.on("fn-start", function (t, n, e) { u && (d += 1) }), s.on("fn-err", function (t, n, e) { u && (this.thrown = !0, o(e)) }), s.on("fn-end", function () { u && !this.thrown && d > 0 && (d -= 1) }), s.on("internal-error", function (t) { i("ierr", [t, c.now(), !0]) }) }, {}], 3: [function (t, n, e) { t("loader").features.ins = !0 }, {}], 4: [function (t, n, e) { function r(t) { } if (window.performance && window.performance.timing && window.performance.getEntriesByType) { var o = t("ee"), i = t("handle"), a = t(8), s = t(7), c = "learResourceTimings", f = "addEventListener", u = "resourcetimingbufferfull", d = "bstResource", l = "resource", p = "-start", h = "-end", m = "fn" + p, w = "fn" + h, v = "bstTimer", y = "pushState", g = t("loader"); g.features.stn = !0, t(6); var b = NREUM.o.EV; o.on(m, function (t, n) { var e = t[0]; e instanceof b && (this.bstStart = g.now()) }), o.on(w, function (t, n) { var e = t[0]; e instanceof b && i("bst", [e, n, this.bstStart, g.now()]) }), a.on(m, function (t, n, e) { this.bstStart = g.now(), this.bstType = e }), a.on(w, function (t, n) { i(v, [n, this.bstStart, g.now(), this.bstType]) }), s.on(m, function () { this.bstStart = g.now() }), s.on(w, function (t, n) { i(v, [n, this.bstStart, g.now(), "requestAnimationFrame"]) }), o.on(y + p, function (t) { this.time = g.now(), this.startPath = location.pathname + location.hash }), o.on(y + h, function (t) { i("bstHist", [location.pathname + location.hash, this.startPath, this.time]) }), f in window.performance && (window.performance["c" + c] ? window.performance[f](u, function (t) { i(d, [window.performance.getEntriesByType(l)]), window.performance["c" + c]() }, !1) : window.performance[f]("webkit" + u, function (t) { i(d, [window.performance.getEntriesByType(l)]), window.performance["webkitC" + c]() }, !1)), document[f]("scroll", r, { passive: !0 }), document[f]("keypress", r, !1), document[f]("click", r, !1) } }, {}], 5: [function (t, n, e) { function r(t) { for (var n = t; n && !n.hasOwnProperty(u) ;) n = Object.getPrototypeOf(n); n && o(n) } function o(t) { s.inPlace(t, [u, d], "-", i) } function i(t, n) { return t[1] } var a = t("ee").get("events"), s = t(18)(a, !0), c = t("gos"), f = XMLHttpRequest, u = "addEventListener", d = "removeEventListener"; n.exports = a, "getPrototypeOf" in Object ? (r(document), r(window), r(f.prototype)) : f.prototype.hasOwnProperty(u) && (o(window), o(f.prototype)), a.on(u + "-start", function (t, n) { var e = t[1], r = c(e, "nr@wrapped", function () { function t() { if ("function" == typeof e.handleEvent) return e.handleEvent.apply(e, arguments) } var n = { object: t, "function": e }[typeof e]; return n ? s(n, "fn-", null, n.name || "anonymous") : e }); this.wrapped = t[1] = r }), a.on(d + "-start", function (t) { t[1] = this.wrapped || t[1] }) }, {}], 6: [function (t, n, e) { var r = t("ee").get("history"), o = t(18)(r); n.exports = r, o.inPlace(window.history, ["pushState", "replaceState"], "-") }, {}], 7: [function (t, n, e) { var r = t("ee").get("raf"), o = t(18)(r), i = "equestAnimationFrame"; n.exports = r, o.inPlace(window, ["r" + i, "mozR" + i, "webkitR" + i, "msR" + i], "raf-"), r.on("raf-start", function (t) { t[0] = o(t[0], "fn-") }) }, {}], 8: [function (t, n, e) { function r(t, n, e) { t[0] = a(t[0], "fn-", null, e) } function o(t, n, e) { this.method = e, this.timerDuration = "number" == typeof t[1] ? t[1] : 0, t[0] = a(t[0], "fn-", this, e) } var i = t("ee").get("timer"), a = t(18)(i), s = "setTimeout", c = "setInterval", f = "clearTimeout", u = "-start", d = "-"; n.exports = i, a.inPlace(window, [s, "setImmediate"], s + d), a.inPlace(window, [c], c + d), a.inPlace(window, [f, "clearImmediate"], f + d), i.on(c + u, r), i.on(s + u, o) }, {}], 9: [function (t, n, e) { function r(t, n) { d.inPlace(n, ["onreadystatechange"], "fn-", s) } function o() { var t = this, n = u.context(t); t.readyState > 3 && !n.resolved && (n.resolved = !0, u.emit("xhr-resolved", [], t)), d.inPlace(t, w, "fn-", s) } function i(t) { v.push(t), h && (g = -g, b.data = g) } function a() { for (var t = 0; t < v.length; t++) r([], v[t]); v.length && (v = []) } function s(t, n) { return n } function c(t, n) { for (var e in t) n[e] = t[e]; return n } t(5); var f = t("ee"), u = f.get("xhr"), d = t(18)(u), l = NREUM.o, p = l.XHR, h = l.MO, m = "readystatechange", w = ["onload", "onerror", "onabort", "onloadstart", "onloadend", "onprogress", "ontimeout"], v = []; n.exports = u; var y = window.XMLHttpRequest = function (t) { var n = new p(t); try { u.emit("new-xhr", [n], n), n.addEventListener(m, o, !1) } catch (e) { try { u.emit("internal-error", [e]) } catch (r) { } } return n }; if (c(p, y), y.prototype = p.prototype, d.inPlace(y.prototype, ["open", "send"], "-xhr-", s), u.on("send-xhr-start", function (t, n) { r(t, n), i(n) }), u.on("open-xhr-start", r), h) { var g = 1, b = document.createTextNode(g); new h(a).observe(b, { characterData: !0 }) } else f.on("fn-end", function (t) { t[0] && t[0].type === m || a() }) }, {}], 10: [function (t, n, e) { function r(t) { var n = this.params, e = this.metrics; if (!this.ended) { this.ended = !0; for (var r = 0; r < d; r++) t.removeEventListener(u[r], this.listener, !1); if (!n.aborted) { if (e.duration = a.now() - this.startTime, 4 === t.readyState) { n.status = t.status; var i = o(t, this.lastSize); if (i && (e.rxSize = i), this.sameOrigin) { var c = t.getResponseHeader("X-NewRelic-App-Data"); c && (n.cat = c.split(", ").pop()) } } else n.status = 0; e.cbTime = this.cbTime, f.emit("xhr-done", [t], t), s("xhr", [n, e, this.startTime]) } } } function o(t, n) { var e = t.responseType; if ("json" === e && null !== n) return n; var r = "arraybuffer" === e || "blob" === e || "json" === e ? t.response : t.responseText; return h(r) } function i(t, n) { var e = c(n), r = t.params; r.host = e.hostname + ":" + e.port, r.pathname = e.pathname, t.sameOrigin = e.sameOrigin } var a = t("loader"); if (a.xhrWrappable) { var s = t("handle"), c = t(11), f = t("ee"), u = ["load", "error", "abort", "timeout"], d = u.length, l = t("id"), p = t(14), h = t(13), m = window.XMLHttpRequest; a.features.xhr = !0, t(9), f.on("new-xhr", function (t) { var n = this; n.totalCbs = 0, n.called = 0, n.cbTime = 0, n.end = r, n.ended = !1, n.xhrGuids = {}, n.lastSize = null, p && (p > 34 || p < 10) || window.opera || t.addEventListener("progress", function (t) { n.lastSize = t.loaded }, !1) }), f.on("open-xhr-start", function (t) { this.params = { method: t[0] }, i(this, t[1]), this.metrics = {} }), f.on("open-xhr-end", function (t, n) { "loader_config" in NREUM && "xpid" in NREUM.loader_config && this.sameOrigin && n.setRequestHeader("X-NewRelic-ID", NREUM.loader_config.xpid) }), f.on("send-xhr-start", function (t, n) { var e = this.metrics, r = t[0], o = this; if (e && r) { var i = h(r); i && (e.txSize = i) } this.startTime = a.now(), this.listener = function (t) { try { "abort" === t.type && (o.params.aborted = !0), ("load" !== t.type || o.called === o.totalCbs && (o.onloadCalled || "function" != typeof n.onload)) && o.end(n) } catch (e) { try { f.emit("internal-error", [e]) } catch (r) { } } }; for (var s = 0; s < d; s++) n.addEventListener(u[s], this.listener, !1) }), f.on("xhr-cb-time", function (t, n, e) { this.cbTime += t, n ? this.onloadCalled = !0 : this.called += 1, this.called !== this.totalCbs || !this.onloadCalled && "function" == typeof e.onload || this.end(e) }), f.on("xhr-load-added", function (t, n) { var e = "" + l(t) + !!n; this.xhrGuids && !this.xhrGuids[e] && (this.xhrGuids[e] = !0, this.totalCbs += 1) }), f.on("xhr-load-removed", function (t, n) { var e = "" + l(t) + !!n; this.xhrGuids && this.xhrGuids[e] && (delete this.xhrGuids[e], this.totalCbs -= 1) }), f.on("addEventListener-end", function (t, n) { n instanceof m && "load" === t[0] && f.emit("xhr-load-added", [t[1], t[2]], n) }), f.on("removeEventListener-end", function (t, n) { n instanceof m && "load" === t[0] && f.emit("xhr-load-removed", [t[1], t[2]], n) }), f.on("fn-start", function (t, n, e) { n instanceof m && ("onload" === e && (this.onload = !0), ("load" === (t[0] && t[0].type) || this.onload) && (this.xhrCbStart = a.now())) }), f.on("fn-end", function (t, n) { this.xhrCbStart && f.emit("xhr-cb-time", [a.now() - this.xhrCbStart, this.onload, n], n) }) } }, {}], 11: [function (t, n, e) { n.exports = function (t) { var n = document.createElement("a"), e = window.location, r = {}; n.href = t, r.port = n.port; var o = n.href.split("://"); !r.port && o[1] && (r.port = o[1].split("/")[0].split("@").pop().split(":")[1]), r.port && "0" !== r.port || (r.port = "https" === o[0] ? "443" : "80"), r.hostname = n.hostname || e.hostname, r.pathname = n.pathname, r.protocol = o[0], "/" !== r.pathname.charAt(0) && (r.pathname = "/" + r.pathname); var i = !n.protocol || ":" === n.protocol || n.protocol === e.protocol, a = n.hostname === document.domain && n.port === e.port; return r.sameOrigin = i && (!n.hostname || a), r } }, {}], 12: [function (t, n, e) { function r() { } function o(t, n, e) { return function () { return i(t, [f.now()].concat(s(arguments)), n ? null : this, e), n ? void 0 : this } } var i = t("handle"), a = t(15), s = t(16), c = t("ee").get("tracer"), f = t("loader"), u = NREUM; "undefined" == typeof window.newrelic && (newrelic = u); var d = ["setPageViewName", "setCustomAttribute", "setErrorHandler", "finished", "addToTrace", "inlineHit", "addRelease"], l = "api-", p = l + "ixn-"; a(d, function (t, n) { u[n] = o(l + n, !0, "api") }), u.addPageAction = o(l + "addPageAction", !0), u.setCurrentRouteName = o(l + "routeName", !0), n.exports = newrelic, u.interaction = function () { return (new r).get() }; var h = r.prototype = { createTracer: function (t, n) { var e = {}, r = this, o = "function" == typeof n; return i(p + "tracer", [f.now(), t, e], r), function () { if (c.emit((o ? "" : "no-") + "fn-start", [f.now(), r, o], e), o) try { return n.apply(this, arguments) } finally { c.emit("fn-end", [f.now()], e) } } } }; a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","), function (t, n) { h[n] = o(p + n) }), newrelic.noticeError = function (t) { "string" == typeof t && (t = new Error(t)), i("err", [t, f.now()]) } }, {}], 13: [function (t, n, e) { n.exports = function (t) { if ("string" == typeof t && t.length) return t.length; if ("object" == typeof t) { if ("undefined" != typeof ArrayBuffer && t instanceof ArrayBuffer && t.byteLength) return t.byteLength; if ("undefined" != typeof Blob && t instanceof Blob && t.size) return t.size; if (!("undefined" != typeof FormData && t instanceof FormData)) try { return JSON.stringify(t).length } catch (n) { return } } } }, {}], 14: [function (t, n, e) { var r = 0, o = navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/); o && (r = +o[1]), n.exports = r }, {}], 15: [function (t, n, e) { function r(t, n) { var e = [], r = "", i = 0; for (r in t) o.call(t, r) && (e[i] = n(r, t[r]), i += 1); return e } var o = Object.prototype.hasOwnProperty; n.exports = r }, {}], 16: [function (t, n, e) { function r(t, n, e) { n || (n = 0), "undefined" == typeof e && (e = t ? t.length : 0); for (var r = -1, o = e - n || 0, i = Array(o < 0 ? 0 : o) ; ++r < o;) i[r] = t[n + r]; return i } n.exports = r }, {}], 17: [function (t, n, e) { n.exports = { exists: "undefined" != typeof window.performance && window.performance.timing && "undefined" != typeof window.performance.timing.navigationStart } }, {}], 18: [function (t, n, e) { function r(t) { return !(t && t instanceof Function && t.apply && !t[a]) } var o = t("ee"), i = t(16), a = "nr@original", s = Object.prototype.hasOwnProperty, c = !1; n.exports = function (t, n) { function e(t, n, e, o) { function nrWrapper() { var r, a, s, c; try { a = this, r = i(arguments), s = "function" == typeof e ? e(r, a) : e || {} } catch (f) { l([f, "", [r, a, o], s]) } u(n + "start", [r, a, o], s); try { return c = t.apply(a, r) } catch (d) { throw u(n + "err", [r, a, d], s), d } finally { u(n + "end", [r, a, c], s) } } return r(t) ? t : (n || (n = ""), nrWrapper[a] = t, d(t, nrWrapper), nrWrapper) } function f(t, n, o, i) { o || (o = ""); var a, s, c, f = "-" === o.charAt(0); for (c = 0; c < n.length; c++) s = n[c], a = t[s], r(a) || (t[s] = e(a, f ? s + o : o, i, s)) } function u(e, r, o) { if (!c || n) { var i = c; c = !0; try { t.emit(e, r, o, n) } catch (a) { l([a, e, r, o]) } c = i } } function d(t, n) { if (Object.defineProperty && Object.keys) try { var e = Object.keys(t); return e.forEach(function (e) { Object.defineProperty(n, e, { get: function () { return t[e] }, set: function (n) { return t[e] = n, n } }) }), n } catch (r) { l([r]) } for (var o in t) s.call(t, o) && (n[o] = t[o]); return n } function l(n) { try { t.emit("internal-error", n) } catch (e) { } } return t || (t = o), e.inPlace = f, e.flag = a, e } }, {}], ee: [function (t, n, e) { function r() { } function o(t) { function n(t) { return t && t instanceof r ? t : t ? c(t, s, i) : i() } function e(e, r, o, i) { if (!l.aborted || i) { t && t(e, r, o); for (var a = n(o), s = h(e), c = s.length, f = 0; f < c; f++) s[f].apply(a, r); var d = u[y[e]]; return d && d.push([g, e, r, a]), a } } function p(t, n) { v[t] = h(t).concat(n) } function h(t) { return v[t] || [] } function m(t) { return d[t] = d[t] || o(e) } function w(t, n) { f(t, function (t, e) { n = n || "feature", y[e] = n, n in u || (u[n] = []) }) } var v = {}, y = {}, g = { on: p, emit: e, get: m, listeners: h, context: n, buffer: w, abort: a, aborted: !1 }; return g } function i() { return new r } function a() { (u.api || u.feature) && (l.aborted = !0, u = l.backlog = {}) } var s = "nr@context", c = t("gos"), f = t(15), u = {}, d = {}, l = n.exports = o(); l.backlog = u }, {}], gos: [function (t, n, e) { function r(t, n, e) { if (o.call(t, n)) return t[n]; var r = e(); if (Object.defineProperty && Object.keys) try { return Object.defineProperty(t, n, { value: r, writable: !0, enumerable: !1 }), r } catch (i) { } return t[n] = r, r } var o = Object.prototype.hasOwnProperty; n.exports = r }, {}], handle: [function (t, n, e) { function r(t, n, e, r) { o.buffer([t], r), o.emit(t, n, e) } var o = t("ee").get("handle"); n.exports = r, r.ee = o }, {}], id: [function (t, n, e) { function r(t) { var n = typeof t; return !t || "object" !== n && "function" !== n ? -1 : t === window ? 0 : a(t, i, function () { return o++ }) } var o = 1, i = "nr@id", a = t("gos"); n.exports = r }, {}], loader: [function (t, n, e) { function r() { if (!x++) { var t = b.info = NREUM.info, n = l.getElementsByTagName("script")[0]; if (setTimeout(u.abort, 3e4), !(t && t.licenseKey && t.applicationID && n)) return u.abort(); f(y, function (n, e) { t[n] || (t[n] = e) }), c("mark", ["onload", a() + b.offset], null, "api"); var e = l.createElement("script"); e.src = "https://" + t.agent, n.parentNode.insertBefore(e, n) } } function o() { "complete" === l.readyState && i() } function i() { c("mark", ["domContent", a() + b.offset], null, "api") } function a() { return E.exists && performance.now ? Math.round(performance.now()) : (s = Math.max((new Date).getTime(), s)) - b.offset } var s = (new Date).getTime(), c = t("handle"), f = t(15), u = t("ee"), d = window, l = d.document, p = "addEventListener", h = "attachEvent", m = d.XMLHttpRequest, w = m && m.prototype; NREUM.o = { ST: setTimeout, CT: clearTimeout, XHR: m, REQ: d.Request, EV: d.Event, PR: d.Promise, MO: d.MutationObserver }; var v = "" + location, y = { beacon: "bam.nr-data.net", errorBeacon: "bam.nr-data.net", agent: "js-agent.newrelic.com/nr-1026.min.js" }, g = m && w && w[p] && !/CriOS/.test(navigator.userAgent), b = n.exports = { offset: s, now: a, origin: v, features: {}, xhrWrappable: g }; t(12), l[p] ? (l[p]("DOMContentLoaded", i, !1), d[p]("load", r, !1)) : (l[h]("onreadystatechange", o), d[h]("onload", r)), c("mark", ["firstbyte", s], null, "api"); var x = 0, E = t(17) }, {}] }, {}, ["loader", 2, 10, 4, 3]);
+                ; NREUM.info = { beacon: "bam.nr-data.net", errorBeacon: "bam.nr-data.net", licenseKey: "5000203576", applicationID: '13437370,184365494', sa: 1 }
+            }
+        }
+</script>
+
+
+<script>
+  var disableSegmentForGTM = Boolean('True');
+</script>
+<input type="hidden" id="hdn_newSegmentKey" value="AJWKXnLfAS1hVn5OI2qECt0wLnkUhECW" />
+<input type="hidden" id="hdn_disableSegmentForGTM" value="True" />
+<script src="https://app.resume-now.com/Scripts/minification/newsegment.min.js"></script>
+<script src="https://api-visitor.livecareer.com/tracking-v6.js"></script>
+<script>
+    TS.Track("RSM", "RNA", 'True', 'True');
+</script>
+
+<script>
+        function LoadPrimaryGTM() {
+            (
+                function (w, d, s, l, i) {
+                    w[l] = w[l] || [];
+                    w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+                    var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+                    j.async = true;
+                    j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl + ('' ? '&gtm_auth=5JdPCLlGcMraRRHYblzLjg&gtm_preview=env-132&gtm_cookies_win=x' : '');
+                    f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-PHXK9HX');
+        }
+
+</script>
+
+    <script>
+
+            function LoadSecondaryGTM() {
+                (function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-T6GWW43');
+            }
+    </script>
+
+    <script>
+        if (typeof LoadPrimaryGTM == 'function') {
+            LoadPrimaryGTM();
+        }
+    </script>
+
+<!-- Global site tag (gtag.js) - Google Analytics
+ loadGAScriptWithKey() - common method to add ga scripts
+ gtag() - to push arguments
+ Add "gaKey" in config file with value e.g. "gaKey":"some value" -->
+
+
+
+</head>
+
+<body>
+<link id="ctfcsspath" href="" rel="stylesheet"/><style>*{outline:0;-webkit-tap-highlight-color:transparent}*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}ul{list-style:none;margin:0;padding:0}a,a:focus,a:hover{text-decoration:none;outline:0}.sem-seo-header .pull-right{float:right}.sem-seo-header .container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}.sem-seo-header .row{margin-right:-15px;margin-left:-15px}.sem-seo-header .container:before,.sem-seo-header .row:before{display:flex;content:" "}.sem-seo-header .container:after,.sem-seo-header .row:after{clear:both;display:table;content:" "}.sem-seo-header .col-sm-3,.sem-seo-header .col-sm-5,.sem-seo-header .col-sm-7,.sem-seo-header .col-sm-9{position:relative;min-height:1px;padding-right:15px;padding-left:15px}@media (min-width:768px){.sem-seo-header .container{width:750px}.sem-seo-header .col-sm-3,.sem-seo-header .col-sm-5,.sem-seo-header .col-sm-7,.sem-seo-header .col-sm-9{float:left}.sem-seo-header .col-sm-3{width:25%}.sem-seo-header .col-sm-5{width:41.66666667%}.sem-seo-header .col-sm-7{width:58.33333333%}.sem-seo-header .col-sm-9{width:75%}}@media (min-width:992px){.sem-seo-header .container{width:970px}}@media (min-width:1200px){.sem-seo-header .container{width:1170px}}.sem-seo-header .header-left .nav-links.auth-links,.sem-seo-header .header-right .nav-links.auth-links,.sem-seo-header .hover-on-nav:hover .sub-nav.paid-links,.sem-seo-header .paid-links,.sem-seo-header.auth .nav-links.login{display:none}.sem-seo-header.auth .header-left .nav-links.auth-links,.sem-seo-header.auth .header-right .nav-links.auth-links,.sem-seo-header.paid .paid-links{display:block}.sem-seo-header.paid .icon_arrow.paid-links{display:none}.sem-seo-header.onscroll{background-color:#fff;box-shadow:0 1px 6px rgba(46,46,46,.2)}.sem-seo-header.small{padding:10px 0;height:60px}.sem-seo-header{background-color:#fff;color:#2e2e2e;font-size:16px;font-family:"Work Sans",Arial,sans-serif;font-weight:400;padding:30px 0;position:fixed;top:0;z-index:999;width:100%;left:0;line-height:1.42857143}.dark.sem-seo-header .header-logo-img,.sem-seo-header .header-logo-img.dark,.sem-seo-header .sidebar-menu.in .header-logo-img{background-image:url(/blobcontent/rna/images/rn-logo-dark.svg)}.sem-seo-header .header-logo-img{background-image:url(/blobcontent/rna/images/rn-logo.svg);background-repeat:no-repeat;background-position:0 0;background-size:100%;display:inline-block;height:40px;width:114px}.sem-seo-header .dark-logo,.dark.sem-seo-header .light-logo,.onscroll.sem-seo-header .dark-logo{display:none}.dark.sem-seo-header .dark-logo,.onscroll.sem-seo-header .light-logo{display:inline-block}.sem-seo-header.small .light-logo img{height:32px;width:90px;margin:4px 0}.sem-seo-header .acc-detail .user-name{color:#2e2e2e;font-size:14px;font-weight:400;line-height:18px;display:block}.sem-seo-header .acc-detail .user-id{color:#787878;font-size:11px;font-weight:400;line-height:18px}@media (max-width:767px){.sem-seo-header .header-left{padding:0}.sem-seo-header .header-right{display:none}.sem-seo-header .menu-wrapper{display:block}.sem-seo-header .icon_close{position:absolute;right:30px;width:20px;height:20px;top:30px}.sem-seo-header .icon_close:after,.sem-seo-header .icon_close:before{content:"";color:#fff;border:1px solid;width:1px;height:15px;display:block;position:absolute;right:4px;top:0;transform:rotate(-45deg)}.sem-seo-header .icon_close:before{transform:rotate(45deg)}.sem-seo-header .icon_menu{float:right;position:relative;cursor:pointer;padding-left:20px;height:28px}.sem-seo-header.dark .icon_menu{color:#fff}.sem-seo-header .icon_menu .bar{position:absolute;top:9px;left:4px}.sem-seo-header .icon_menu .bar span{border:1px solid;width:14px;height:2px;display:block;margin-bottom:3px}.sem-seo-header .icon_arrow:before{content:"";border:solid #fff;border-width:0 2px 2px 0;width:8px;height:8px;display:inline-block;transform:rotate(45deg);position:absolute;right:30px;top:22px}.sem-seo-header .sub-header .nav-links.active .icon_arrow:before{transform:rotate(-135deg);top:26px}.sem-seo-header{padding:10px 15px;height:50px}.sem-seo-header.small{padding:10px 15px}.sem-seo-header+.header-seperator{height:50px}.sem-seo-header .header-logo img{width:85px;height:30px}.sem-seo-header .menu-wrapper{float:right;position:relative}.sem-seo-header .sidebar-menu{overflow:auto;transition:left .5s ease;position:fixed;top:0;left:-100%;width:100%;text-align:left;background-color:#2e2e2e;height:100vh;cursor:default;z-index:1}.sem-seo-header .sidebar-menu.in{left:0}.sem-seo-header .sub-header{padding-bottom:30px}.sem-seo-header .sub-header .nav-links,.sem-seo-header .sub-inner-header .nav-links{padding:15px;text-align:left;position:relative}.sem-seo-header .sub-header .nav-links{padding:15px 30px 15px 30px;text-align:left;position:relative}.sem-seo-header .sub-header .nav-links a{color:#fff;font-size:14px;font-weight:600;line-height:25px;text-transform:uppercase}.sem-seo-header .sub-header .nav-links.login{padding-top:25px}.sem-seo-header .sub-header .nav-links.login a{border:1px solid #fff;padding:8px 35px}.sem-seo-header .sub-header>.nav-links:first-child{padding:30px 30px 35px}.sem-seo-header .sub-header>.nav-links:first-child a{padding:0}.sem-seo-header .sub-inner-header{padding-left:25px;overflow:hidden;height:0}.sem-seo-header .sub-inner-header .nav-links{padding:20px 0 0}.sem-seo-header .sub-inner-header .nav-links a{padding:0}.sem-seo-header .move .sub-inner-header{transition:height .8s ease;-webkit-transition:height .8s ease;-moz-transition:height .8s ease}.sem-seo-header .menu-wrapper .menu-check-action{position:absolute;top:3px;left:1px;width:100%;opacity:0;margin:0;cursor:pointer;height:25px}.sem-seo-header .sub-header .menu-check-action{top:10px;width:18px;right:25px;z-index:9;left:auto}.sem-seo-header .menu-check-action.in{top:0;left:0;width:100vw;height:100vh;margin:0;position:fixed}.sem-seo-header .sub-inner-header.out{height:0!important}}.sem-seo-header .nav-links a.js-user-name-mob{text-transform:capitalize}.sem-seo-header .hover-on-nav:hover .sub-nav.move-right{left:auto;right:0;position:fixed;top:70px}.sem-seo-header.small .hover-on-nav:hover .sub-nav.move-right{top:50px}@media (min-width:768px){.sem-seo-header{padding:30px 0}.sem-seo-header .menu-wrapper{display:none}.sem-seo-header+.header-seperator{height:100px}.sem-seo-header .header-left{height:40px}.sem-seo-header .header-right{margin-top:7px}.sem-seo-header .header-right .nav-links{padding:0;vertical-align:middle;position:relative;display:inline-block;cursor:pointer;float:left;margin:0 0 8px 40px}.sem-seo-header .header-right .nav-links.notification{margin-left:10px}.sem-seo-header .header-right .nav-links:first-child{margin-left:0}.sem-seo-header .header-right .nav-links:last-child{padding-right:0}.sem-seo-header .header-right .nav-links a{color:#2e2e2e;font-family:"Work Sans";font-size:14px;font-weight:600;line-height:25px;text-transform:uppercase;padding-bottom:13px}.sem-seo-header .nav-links a.js-user-name{text-transform:capitalize}.sem-seo-header .header-right .nav-links.separator{position:relative}.sem-seo-header .header-right .nav-links.separator:after{content:"|";position:absolute;left:-21px;color:#dde2e7;top:0}.sem-seo-header .header-right .nav-links a .num{width:18px;height:18px;background-color:#e86030;color:#fff;font-size:12px;font-weight:600;border-radius:50%;display:inline-block;text-align:center;line-height:18px;margin-left:5px;position:relative}.sem-seo-header .header-right .nav-links a .num:before{content:"";width:30px;height:22px;position:absolute;top:0;left:-7px;border-bottom:3px solid transparent}.sem-seo-header .nav-links:before{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background-color:#2e2e2e;transform-origin:bottom right;transform:scaleX(0);transition:transform .5s ease}.sem-seo-header .nav-links:hover:before{transform-origin:bottom left;transform:scaleX(1)}.sem-seo-header .sub-nav{left:-9999px;opacity:0;position:absolute;-webkit-transition:opacity .4s ease-in-out;-moz-transition:opacity .4s ease-in-out;-ms-transition:opacity .4s ease-in-out;-o-transition:opacity .4s ease-in-out;transition:opacity .4s ease-in-out;background-color:#fff;border-top:1px solid #eee;top:33px;box-shadow:0 2px 10px rgba(46,46,46,.1);border:1px solid #787878;display:none}.sem-seo-header .notification .sub-nav{max-height:300px;overflow-y:scroll}.sem-seo-header .notification .sub-nav .nav-item:active i,.sem-seo-header .notification .sub-nav .nav-item:focus i,.sem-seo-header .notification .sub-nav .nav-item:hover i{display:block}.sem-seo-header .sub-nav .nav-item.notification-heading{padding:20px 15px 12px}.sem-seo-header .sub-nav .nav-item.notification-heading span{color:#2e2e2e;font-size:14px;font-weight:600;letter-spacing:-.26px;line-height:18px;text-transform:uppercase}.sem-seo-header .sub-nav .nav-item.notification-heading .count{color:#e86030;float:right}.sem-seo-header .sub-nav .nav-item.notification-heading:active,.sem-seo-header .sub-nav .nav-item.notification-heading:focus,.sem-seo-header .sub-nav .nav-item.notification-heading:hover{background-color:transparent}.sem-seo-header .header-right .nav-links.notification .sub-nav i{cursor:pointer}.sem-seo-header .sub-nav .nav-item a{display:block;letter-spacing:-.26px;text-transform:uppercase;width:216px;padding:0;font-weight:400;line-height:18px}.sem-seo-header .notification .sub-nav .nav-item a{padding:10px 0 0;font-weight:600}.sem-seo-header .sub-nav .nav-item{position:relative;padding:10px 45px 10px 15px;max-width:234px}.sem-seo-header .sub-nav .nav-item:active,.sem-seo-header .sub-nav .nav-item:focus,.sem-seo-header .sub-nav .nav-item:hover{background-color:#fced5b}.sem-seo-header .hover-on-nav:hover .sub-nav,.sem-seo-header.paid .hover-on-nav:hover .sub-nav.paid-links{left:0;opacity:1;display:block}.sem-seo-header .sub-nav .delete-noti{position:absolute;top:10px;right:15px;width:9px;height:18px;display:none}.sem-seo-header .sub-nav .delete-noti:after,.sem-seo-header .sub-nav .delete-noti:before{content:"";border:1px solid #000;width:1px;height:10px;position:absolute;top:3px;right:3px;transform:rotate(45deg)}.sem-seo-header .sub-nav .delete-noti:before{content:"";transform:rotate(-45deg)}.sem-seo-header.dark .header-right .nav-links>a{color:#fff}.sem-seo-header.dark .nav-links:before{background-color:#fff}.sem-seo-header .nav-links.notification:before{background-color:transparent}}@media (max-width:991px) and (min-width:768px){.sem-seo-header .header-right .nav-links{margin-left:26px}.sem-seo-header .header-right .nav-links.separator:after{left:-14px;top:2px}}</style>
+
+    <header class="sem-seo-header js-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 header-left">
+                      <a href="https://www.resume-now.com" class="header-logo js-header-logo light-logo" onclick="return TrackEventsForJTRNHeader('resume-now home button');" >
+                          <img class="" src="/blobcontent/rna/images/rn-logo.svg" alt="logo" title="logo" />
+                      </a>
+                      <a href="https://www.resume-now.com" class="header-logo js-header-logo dark-logo" onclick="return TrackEventsForJTRNHeader('resume-now home button');">
+                          <img class="" src="/blobcontent/rna/images/rn-logo-dark.svg" alt="logo" title="logo" />
+                      </a>
+                    <div class="menu-wrapper ">
+                        <div class="title icon_menu js-icon_menu">
+                            <div class="bar">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <input type="checkbox" class="menu-check-action">
+                        <div class="sidebar-menu">
+                            <ul class="sub-header  many-option js-sub-header">
+                                <li class="nav-links">
+                                    <a href="https://www.resume-now.com" class="js-header-logo" onclick="return TrackEventsForJTRNHeader('resume-now home button');">
+                                        <i class="header-logo-img dark">&nbsp;</i>
+                                    </a>
+                                    <i class="icon_close">&nbsp;</i>
+                                </li>
+                                <li class="nav-links auth-links">
+                                    <a href="https://www.resume-now.com" class="js-header-home"  onclick="TrackEventsForJTRNHeader('home', 'https://www.resume-now.com');">Home</a>
+                                </li>
+
+                                <li class="nav-links  auth-links">
+                                    <input type="checkbox" class="menu-check-action paid-links">
+                                    <a href="https://www.resume-now.com/account/jobdashboard.aspx" class="js-header-home"  onclick="TrackEventsForJTRNHeader('documents', 'https://www.resume-now.com/account/jobdashboard.aspx');">Documents</a>
+                                    <i
+                                        class="js-play-action icon js-lazy-load icon_arrow lazy-load-icon paid-links">&nbsp;</i>
+                                    <ul class="sub-inner-header out paid-links">
+                                        <li class="nav-links">
+                                            <a href="https://www.resume-now.com/account/jobdashboard.aspx" onclick="TrackEventsForJTRNHeader('your resumes & cover letters', 'https://www.resume-now.com/account/jobdashboard.aspx');">Your
+                                                Resumes &amp; Cover Letters</a></li>
+                                        <li class="nav-links"><a
+                                                href="https://jobtools.resume-now.com/tys?docid=982b0171-ea97-43eb-917b-fddf963ec905&amp;var=jd&amp;tab=rcl" onclick="TrackEventsForJTRNHeader('your elevator pitch', 'https://jobtools.resume-now.com/tys?docid=982b0171-ea97-43eb-917b-fddf963ec905&amp;var=jd&amp;tab=rcl');">Your
+                                                Elevator Pitch</a></li>                                      
+                                    </ul>
+                                </li>
+
+
+                                <li class="nav-links auth-links">
+                                    <a class="js-job-links" href="https://jobs.resume-now.com" onclick="TrackEventsForJTRNHeader('jobs', 'https://jobs.resume-now.com');">Jobs</a>
+                                </li>
+
+                                <li class="nav-links">
+                                    <a href="https://www.resume-now.com/contact-us" target="_blank" onclick="TrackEventsForJTRNHeader('contact us');">Contact Us</a>
+                                </li>
+                                <li class="nav-links login">
+                                    <a href="https://www.resume-now.com/membership/signin.aspx">Login</a>
+                                </li>
+
+                                <li class="nav-links  auth-links">
+                                    <input type="checkbox" class="menu-check-action">
+                                    <a href="javascript:void(0)" class="js-user-name-mob">Danny Sample</a>
+                                    <i class="js-play-action icon js-lazy-load icon_arrow lazy-load-icon">&nbsp;</i>
+                                    <ul class="sub-inner-header out">
+                                        <li class="nav-links"><a
+                                                href="https://www.resume-now.com/profile/my-settings-b.aspx" onclick="TrackEventsForJTRNHeader('settings', 'https://www.resume-now.com/profile/my-settings-b.aspx');">Settings</a></li>
+                                        <li class="nav-links" onclick="resetNewUser()"><a href="https://www.resume-now.com/membership/signout.aspx">Logout</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-9 ">
+                    <nav class="header-right pull-right">
+                        <ul>
+                            <li class="nav-links hover-on-nav auth-links">
+                                <a href="https://www.resume-now.com/account/jobdashboard.aspx" class="js-header-home" onclick="TrackEventsForJTRNHeader('home', 'https://www.resume-now.com/account/jobdashboard.aspx');" >Home</a>
+                            </li>
+                            <li class="nav-links hover-on-nav auth-links">
+                                <a href="https://www.resume-now.com/account/documents.aspx" class="js-header-home js-doc-tab" onclick="TrackEventsForJTRNHeader('documents', 'https://www.resume-now.com/account/documents.aspx');">Documents</a>
+                                <ul class="sub-nav paid-links">
+                                    <li class="nav-item"><a href="https://www.resume-now.com/account/documents.aspx" onclick="TrackEventsForJTRNHeader('your resumes & cover letters', 'https://www.resume-now.com/account/documents.aspx');">Your Resumes &amp;
+                                            Cover Letters</a></li>
+                                    <li class="nav-item"><a
+                                            href="https://jobtools.resume-now.com/tys?docid=982b0171-ea97-43eb-917b-fddf963ec905&amp;var=jd&amp;tab=rcl"  onclick="TrackEventsForJTRNHeader('your elevator pitch', 'https://jobtools.resume-now.com/tys?docid=982b0171-ea97-43eb-917b-fddf963ec905&amp;var=jd&amp;tab=rcl');">Your
+                                            Elevator Pitch</a></li>                                    
+                                </ul>
+                            </li>
+                            <li class="nav-links auth-links">
+                                <a class="js-job-links" href="https://jobs.resume-now.com" onclick="TrackEventsForJTRNHeader('jobs', 'https://jobs.resume-now.com');">Jobs</a>
+                            </li>
+
+                            <li class="nav-links">
+                                <a href="https://www.resume-now.com/contact-us" target="_blank" onclick="TrackEventsForJTRNHeader('contact us');">CONTACT US</a>
+                            </li>
+                            <li class="nav-links login">
+                                <a href="https://www.resume-now.com/membership/signin.aspx">LOGIN</a>
+                            </li>
+                            <li class="nav-links hover-on-nav auth-links separator">
+                                <a href="javascript:void(0)" class="js-user-name"><span class="name">Danny
+                                        Sample</span></a>
+                                <ul class="sub-nav">
+                                    <li class="nav-item">
+                                        <div class="acc-detail">
+                                            <span class="user-name">Firstname Lastname</span>
+                                            <span class="user-id">useremail@email.com</span>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item"><a href="https://www.resume-now.com/profile/my-settings-b.aspx" onclick="TrackEventsForJTRNHeader('settings', 'https://www.resume-now.com/profile/my-settings-b.aspx');">Settings</a>
+                                    </li>
+                                    <li class="nav-item" onclick="resetNewUser()"><a href="https://www.resume-now.com/membership/signout.aspx">Logout</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-links hover-on-nav auth-links notification">
+                                <a href="javascript:void(0)"><span class="num countNf">1</span></a>
+                                <ul class="sub-nav" id="RibbonList">
+                                    <li class="nav-item notification-heading"><span>Notification</span><span
+                                            class="count"><span class="countNf">1</span> New</span></li>
+                                    <li class="nav-item handbookLink"><a
+                                            href="/ebookpdf/resumenow_job_search_handbook_v1.pdf" target="_blank">Learn
+                                            the secrets to win the job with our Job Search Handbook!</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="sem-seo header-seperator"></div>
+    <script type="text/javascript">  
+    if (!window.location.origin) {
+  var _notificationDomainName = window.location.protocol + "//" 
+    + window.location.hostname 
+    + (window.location.port ? ':' + window.location.port : '');
+}else{var _notificationDomainName=window.location.origin;}; function ready() {navWrapperForUser(), navWrapperForLaptop(), navWrapperPlacement(), AppendCssInHead(); var e = document.querySelectorAll(".js-sub-header  .menu-check-action"), t = document.querySelectorAll(".menu-wrapper >  .menu-check-action"), n = document.querySelectorAll(".js-user-icon"), o = document.querySelectorAll(".nav-links > a"); if (m = document.querySelectorAll(".icon_close"), e.length > 0) for (var i = 0; i < e.length; i++) e[i].addEventListener("change", subHeader_menuCheckAction, !1); if (t.length > 0) for (i = 0; i < t.length; i++) t[i].addEventListener("change", menuWrapper_menuCheckAction, !1); if (n.length > 0) for (i = 0; i < n.length; i++) n[i].addEventListener("click", userIconAction, !1); if (window.innerWidth > 767 && window.innerWidth < 1025) for (i = 0; i < o.length; i++) o[i].addEventListener("click", navAnchorAction, !1); m.length > 0 && m[0].addEventListener("click", menuWrapper_menuCheckAction, !1); var a = GetUserStatusCookie(); for (null != a && null != a && "" != a && a.IsUserLoggedIn && callAjax2(_notificationDomainName + "/rna.aspx/IsPremiumUser", "GET", !0, !0, CallBackSuccess, _notificationDomainName) && null == document.querySelector(".seo-page") && (document.querySelectorAll(".js-header")[0].classList.add("auth"), document.querySelectorAll(".acc-detail .user-name")[0].innerHTML = a.User.AccDisplayName, document.querySelectorAll(".js-user-name-mob")[0].textContent = a.User.AccDisplayName, document.querySelectorAll(".js-user-name .name")[0].textContent = a.User.AccDisplayName, document.querySelectorAll(".acc-detail .user-id")[0].innerHTML = a.User.UserEmail ? a.User.UserEmail : "", document.querySelectorAll(".js-header-logo")[0].setAttribute("href", _notificationDomainName + "/account/jobdashboard.aspx")), i = 0; i < document.querySelectorAll(".js-job-links").length; i++) document.querySelectorAll(".js-job-links")[i].setAttribute("href", GetJobLinksUrl()); if (document.body.classList.contains("dark") && (document.querySelectorAll(".js-header")[0].classList.add("dark"), window.pageYOffset > 100 && (document.querySelectorAll(".sem-seo-header.js-header")[0].classList.add("onscroll"), document.querySelectorAll(".sem-seo-header.js-header")[0].classList.remove("dark"))), e = Array.prototype.slice.call(document.querySelectorAll("img.lazyonlp")), "IntersectionObserver" in window) { var t = new IntersectionObserver(function (e, n) { e.forEach(function (e) { if (e.isIntersecting) { var n = e.target; n.src = n.dataset.lazySrc, n.classList.remove("lazyonlp"), t.unobserve(n) } }) }); e.forEach(function (e) { t.observe(e) }) } 
+	else {
+	e=Array.prototype.slice.call(document.querySelectorAll(".js-sub-header  .menu-check-action"));
+                    e.forEach(function (e) { e.src = e.dataset.lazySrc, e.classList.remove("lazyonlp") });
+            
+	} a.IsUserLoggedIn && GetNotification(), heightUpdate(), mobileChanges() } function navWrapperForLaptop(){ if(window.innerWidth > 1300 && window.innerWidth < 1580){document.querySelectorAll(".notification")[0].children[1].classList.add("move-right")}} 
+	function navWrapperForUser(){ if(window.innerWidth > 1300 && window.innerWidth < 1580){document.querySelectorAll(".separator")[0].children[1].classList.add("move-right")}} function navWrapperPlacement() { if (window.innerWidth > 767 && document.querySelectorAll(".js-header")[0].classList.contains("auth")) { var e = document.querySelectorAll(".separator")[0], t = document.querySelectorAll(".notification")[0], n = e.offsetLeft + e.clientWidth + document.querySelectorAll(".container")[0].offsetLeft; e.children[1].classList.remove("move-right"), t.children[1].classList.remove("move-right"), console.log(n), window.innerWidth < 991 && n > 523 && e.children[1].classList.add("move-right"), window.innerWidth > 991 && window.innerWidth < 1199 && n > 700 && n < 795 && e.children[1].classList.add("move-right"), window.innerWidth > 1199 && window.innerWidth < 1280 && n < 745 && e.children[1].classList.add("move-right"), window.innerWidth < 1530 && t.children[1].classList.add("move-right") } } function callAjax2(e, t, n, o, i, a, r) { var s; return (s = new XMLHttpRequest).onload = function () { 4 == s.readyState && 200 == s.status && i && (a ? i(s.responseText, a) : i(s.responseText)) }, s.open(t, e, n), o && (s.withCredentials = !0), s.setRequestHeader("Content-Type", "application/json;charset=UTF-8"), s.send(r), !0 } function CallBackSuccess(e, t) { e && e.indexOf("true") > 0 && document.querySelector(".sem-seo-header").classList.add("paid");var divs=document.querySelectorAll(".hover-drop-down");if(e.indexOf("true")>0)for(var i=0;i<divs.length;i++)divs[i].style.display="inline-block"; } function docmentClick() { classToggle(".js-user-popup", "open") } function lazyLoadIcon() { for (var e = 0; e < document.querySelectorAll(".js-lazy-load").length; e++) document.querySelectorAll(".js-lazy-load")[e].classList.add("lazy-load-icon") } function subHeader_menuCheckAction(e) { e.target.offsetParent.querySelectorAll(".sub-inner-header")[0].classList.toggle("out"), e.target.offsetParent.classList.toggle("active") } function menuWrapper_menuCheckAction(e) { document.querySelectorAll(".sidebar-menu")[0].classList.toggle("in") } function userIconAction(e) { e.stopPropagation(), document.querySelectorAll(".js-user-popup")[0].classList.add("open") } function navAnchorAction(e) { e.target.classList.contains("clicked") ? window.location.href = e.target.getAttribute("href") : (e.preventDefault(), e.target.classList.add("clicked")) } function addHeight() { for (var e = 0; e < document.querySelectorAll(".sub-header").length; e++) document.querySelectorAll(".sub-header")[e].classList.add("move"); Array.prototype.slice.call(document.querySelectorAll(".sub-inner-header")).forEach(function (e) { var t = e.querySelectorAll("li").length * e.querySelectorAll("li")[0].clientHeight + "px"; e.setAttribute("style", "height:" + t) }) } function classToggle(e, t) { for (var n = 0; n < document.querySelectorAll(e).length; n++) document.querySelectorAll(e)[n].classList.contains(t) && document.querySelectorAll(e)[n].classList.remove(t) } function GetUserStatusCookie() { var e = GetCookie("UserStatus"); return null != e && null != e && "" != e ? JSON.parse(e) : "" } function GetJobLinksUrl() { var e = document.URL; return -1 != e.indexOf("qa.") || -1 != e.indexOf("qa-") || -1 != e.indexOf("test-") || -1 != e.indexOf("local") ? "https://qa-jobs.resume-now.com" : -1 != e.indexOf("regression.") || -1 != e.indexOf("regression-") || -1 != e.indexOf("reg-") ? "https://jobs.resume-now.com" : -1 != e.indexOf("stg.") || -1 != e.indexOf("stg-") ? "https://stg-jobs.resume-now.com" : -1 != e.indexOf("perf.") || -1 != e.indexOf("perf-") ? "https://perf-jobs.resume-now.com" : "https://jobs.resume-now.com" } function GetCookie(e) { for (var t = e + "=", n = document.cookie.split(";"), o = 0; o < n.length; o++) { for (var i = n[o]; " " == i.charAt(0);) i = i.substring(1); if (0 == i.indexOf(t)) return i.substring(t.length, i.length) } return "" } function AppendCssInHead() { var e = e = /constructor/i.test(window.HTMLElement) || "[object SafariRemoteNotification]" === (!window.safari || safari.pushNotification).toString(); e && $("head").append($("#ctfcsspath")) } function GetNotification() { var e = GetUserStatusCookie(); if (e) { var t = { userGuid: e.User.UserId }; callAjax2(_notificationDomainName + "/account/dashboard.aspx/GetNotifications", "POST", !0, !0, NotificationCallBack, _notificationDomainName, JSON.stringify(t)) } } function NotificationCallBack(e) { var t = ""; if (t += '<li class="nav-item notification-heading"><span>Notification</span><span class="count"><span class="countNf">0</span> New</span></li>', e = e || [], e = JSON.parse(e)) { var n = JSON.parse(JSON.parse(e.d).servicesNotification); if (n) for (var o = 0; o < n.length; o++) n[o].DocReviewText && (t += '<li class="nav-item">', t += "<div>" + n[o].DocReviewText + "</div>", n[o].DocReviewUrl && n[o].DocReviewCTAText && (t += '<a href="' + n[o].DocReviewUrl + '" title="' + n[o].DocReviewCTAText + '"> ' + n[o].DocReviewCTAText + " </a>", n[o].DocReviewCTAText), t += '<i class="delete-noti js-remove-notification"></i>', t += "</li>"), n[o].DocWritingText && (t += '<li class="nav-item">', t += "<div>" + n[o].DocWritingText + "</div>", n[o].DocWritingUrl && n[o].DocWritingCTAText && (t += '<a href="' + n[o].DocWritingUrl + '" title="' + n[o].DocWritingCTAText + '"> ' + n[o].DocWritingCTAText + " </a>"), t += '<i class="delete-noti js-remove-notification"></i>', t += "</li>"); var i = JSON.parse(JSON.parse(e.d).glueNotification); if (i && 0 != i.length) for (o = 0; o < i.length; o++) "StoryBuilder" == i[o].Item4 && "0" == getCookie("glueNotify") || (t += "<li class='nav-item'><div>{0}</div><a class='notifAnchor' data-href ='{1}' data-type='{2}'>{3}</a><i class='delete-noti'></i></li>".replace("{0}", i[o].Item1).replace("{1}", i[o].Item3).replace("{2}", i[o].Item4).replace("{3}", i[o].Item2)) } t += '<li class="nav-item handbookLink"><a href="' + _notificationDomainName + '"/ebookpdf/resumenow_job_search_handbook_v1.pdf target="_blank">Learn the secrets to win the job with our Job Search Handbook!</a></li>', document.getElementById("RibbonList").innerHTML = t; var a = document.getElementsByClassName("notifAnchor"); if (a.length > 0) for (o = 0; o < a.length; o++) a[o].addEventListener("click", handleNotificationClick, !1); if ((a = document.getElementsByClassName("js-remove-notification")).length > 0) for (o = 0; o < a.length; o++) a[o].addEventListener("click", handleRemoveNotification, !1); renderNotification() } function handleRemoveNotification(e) { this.parentNode.remove(), e.stopPropagation(), renderNotification() } function renderNotification() { for (var e = document.querySelector("#RibbonList").getElementsByTagName("li") || [], t = e.length > 0 ? e.length - 1 : 0, n = document.querySelectorAll(".countNf"), o = 0; o < n.length; o++) n[o].innerText = t } function handleNotificationClick(e) { var t = this.getAttribute("data-type"), n = this.getAttribute("data-href"), o = ""; switch (t) { case "AppFollowUp": o = "AFOU"; break; case "StoryBuilder": o = "YSBN", n += iDocId; var i = new Date; i.setTime(i.getTime() + 54e5), document.cookie = "glueNotify=0; expires=" + i.toUTCString() + ";domain=." + serverVars.cookieDomain + ";path=/" } SaveUserPreference(o, "1"), window.location = n } function SaveUserPreference(e, t) { var n = GetUserStatusCookie(); if (n) { var o = { sUserPreferenceCD: e, sValue: t }; o.suserGuid = n.User.UserId, callAjax2(_notificationDomainName + "/account/dashboard.aspx/SaveUserPreference", "POST", !0, !0, null, _notificationDomainName, JSON.stringify(o)) } } function heightUpdate() { var jsheader=document.querySelectorAll(".sem-seo-header.js-header"); if(jsheader && jsheader.length > 0) { window.pageYOffset > 100 ? document.querySelectorAll(".sem-seo-header.js-header")[0].classList.add("small") : document.querySelectorAll(".sem-seo-header.js-header")[0].classList.remove("small") } } _notificationDomainName = _notificationDomainName.indexOf("qa-") > -1 || _notificationDomainName.indexOf("local") > -1 || _notificationDomainName.indexOf("qa.") > -1 ? "https://qa.resume-now.com" : _notificationDomainName.indexOf("reg-") > -1 || _notificationDomainName.indexOf("regression") > -1 ? "https://regression.resume-now.com" : _notificationDomainName.indexOf("stg.") > -1 ? "https://stg.resume-now.com" : "https://www.resume-now.com", document.addEventListener("DOMContentLoaded", ready, !1), document.addEventListener("click", docmentClick, !1), window.onresize = function () { addHeight(), navWrapperPlacement() }, window.addEventListener("scroll", function () { var jsheader = document.querySelectorAll(".sem-seo-header.js-header"); if(jsheader && jsheader.length > 0) { window.pageYOffset > 100 ? document.querySelectorAll(".sem-seo-header.js-header")[0].classList.add("onscroll") : document.querySelectorAll(".sem-seo-header.js-header")[0].classList.remove("onscroll"), document.body.classList.contains("dark") && (window.pageYOffset > 100 ? document.querySelectorAll(".sem-seo-header.js-header")[0].classList.remove("dark") : document.querySelectorAll(".sem-seo-header.js-header")[0].classList.add("dark")) } }), window.addEventListener ? window.addEventListener("load", addHeight, !1) : window.attachEvent && window.attachEvent("onload", addHeight), window.addEventListener("scroll", function (e) { heightUpdate() });
+        function mobileChanges() {
+            var isMobile = GetCookie("ismobile");
+            if (isMobile == "True") {
+                var headerlogo = document.querySelectorAll(".js-header-logo");
+                for (var i = 0; i < headerlogo.length; i++) {
+                    headerlogo[i].setAttribute("href", _notificationDomainName+"/mobile/dashboard/documents");
+                }
+                var headerhome = document.querySelectorAll(".js-header-home");
+                for (var i = 0; i < headerhome.length; i++) {
+                    headerhome[i].setAttribute("href", _notificationDomainName+"/mobile/dashboard/documents");
+                }
+            }
+        }
+        function TrackEventsForJTRNHeader(clickValue, redirectLocation, dataTarget) {
+            var properties = {
+                "action": "clicked",
+                "click section": "header",
+                "click type": "link",
+                "click value": clickValue,
+                "variation": "job focus"
+            };
+            var e = GetUserStatusCookie();
+            var useruid;
+            if (e) {
+                useruid = e.User.UserId;
+            }
+    TrackEvents("header nav bar clicks", properties, useruid, true);
+            CreateJSDelayForSEMHeader();
+
+    if (clickValue === "resume-now home button" || (clickValue === "notifications" && redirectLocation === "")) {
+        return true;
+    }
+    if (redirectLocation) {
+        if (dataTarget && dataTarget === "blank") {
+            window.open(redirectLocation, '_blank');
+        } else {
+            window.location.href = redirectLocation;
+        }
+    }
+}
+function resetNewUser()
+{
+    sessionStorage.setItem('newUser',0);
+}
+function CreateJSDelayForSEMHeader(milliseconds) {
+    if (!milliseconds) {
+        milliseconds = 500;
+    }
+    var start = new Date().getTime();
+    for (var i = 0; i < 1e7; i++) {
+        if ((new Date().getTime() - start) > milliseconds) {
+            break;
+        }
+    }
+}
+if (typeof (domLoaded) != "undefined" && domLoaded) {
+        var testcount = 0;
+        var timer_headericon;
+        var timer_interval = 200;
+
+        timer_headericon = setInterval(function () {
+            testcount++;
+            if ($(".js-header") && $(".js-header").length > 0) {
+                clearTimeout(timer_headericon);                
+                ready();
+            }
+            else if (testcount >= 100) {
+                clearTimeout(timer_headericon);
+            }
+        }, timer_interval);
+
+        
+    } 
+	 
+</script><script id="ctfjspath" src=""></script>
+
+    
+
+
+
+<input type="hidden" id="hn_partyid" value="0" />
+<input type="hidden" id="userEmail" value="Mrharrison0509@gmail.com" />
+<input type="hidden" id="userFullName" value="Mrharrison0509" />
+<input type="hidden" id="hn_create_resume" value="https://www.resume-now.com/build-resume?createnew=1" />
+<input type="hidden" id="hn_create_coverletter" value="https://www.resume-now.com/build-letter?createnew=1" />
+<input type="hidden" id="hdnIsVersionV2" value="false" />
+<input type="hidden" id="hn_is_mobile" value="true" />
+<input type="hidden" id="hdnCustomerServiceEmail" value="customerservice@resume-now.com" />
+<input type="hidden" id="hn_premiumuser" value="True" />
+<input type="hidden" id="hn_surveyUsername" value="" />
+<input type="hidden" id="hdn_resumeBlobUrl" value="https://www.resume-now.com/blobcontent/rna/rbrwz/rwz/config/config.prod.desktop.js" />
+<input type="hidden" id="hdn_letterBlobUrl" value="https://www.resume-now.com/blobcontent/clb/rna/config/config.prod.js" />
+<input type="hidden" id="hdn_EnableRNDochomeDesignchange" value="True" />
+
+<div class="container-fluid doc-home js-doc-home-page">
+    <div class="document-wrapper ">
+        <div class="row doc-title-container">
+            <div class="col-sm-4">
+                <h1 class="h1">Your Documents</h1>
+            </div>
+            <div class="col-xs-12 col-sm-8 text-right">
+                <button type="button" data-btn-create="https://www.resume-now.com/build-resume/mobile?createnew=1" class="btn btn-secondary-default btn-resume js-btn-resume" data-url="">
+                    <span class="icon-plus">New Resume</span>
+                </button>
+                <button type="button" data-btn-create="https://www.resume-now.com/build-letter?createnew=1" class="btn btn-secondary-default btn-coverlatter js-btn-coverlatter" data-url="">
+                    <span class="icon-plus">New Cover letter</span>
+                </button>
+            </div>
+        </div>
+        
+            <div class="row doc-thumb-container js-grid-resume">
+                
+
+
+<div class="col-sm-6 col-md-3 doc-thumb-item js-doc-fd333999-0917-47d6-95f8-c527abc5a7ab js-grid-content js-data " data-useruid="3b91fa10-85be-44e1-966b-38634f4bb3d9"
+     data-docguid="fd333999-0917-47d6-95f8-c527abc5a7ab"
+     data-docname="Jason _Harrison_Resume"
+     data-doctype="RSME"
+     data-isebskin="True"
+     data-skincd="CNT4">
+    <span class="label-style doc-resume-label">Resume</span>
+    <div class="review-wrapper">
+        <div class="overlay-image">
+
+            
+
+                <a href="#" class="doc-image-wrap">
+                    <img class="doc-image js-viewdoc" alt="" id="js-dynamic-gridimage" />
+                </a>
+                <div class="hover-icons">
+                    <span class="icon-doc-edit js-doc-edit "></span>
+                    <span class="icon-hover icon-download icon-rect js-doc-download" data-auto-download=".js-doc-download"></span>
+                    <span class="icon-hover icon-mail icon-rect js-doc-email" data-auto-email=".js-doc-email"></span>
+                    <span class="icon-hover icon-print icon-rect js-doc-print" data-auto-print=".js-doc-print"></span>
+                    <div class="icon-rect dropdown icon-dots js-dropdown ">
+                        <div class="toggle-menu">
+                            <span class="menu-item js-doc-edit  d-none">Edit Resume</span>
+                            <span class="menu-item js-doc-duplicate " data-target="#doc-duplicate-modal" data-toggle="modal">Duplicate</span>
+                            <span class="menu-item js-doc-remove  ">Delete</span>
+                            <span class="menu-item js-doc-rename ">Rename</span>
+                            <span class="menu-item d-none">Get Feedback</span>
+                            <span class="menu-item share js-share d-none">SHARE</span>
+                            <div class="show-icons js-show-icon">
+                                <span class="icons-share icon-facebook"></span>
+                                <span class="icons-share icon-twitter"></span>
+                                <span class="icons-share icon-linkedin"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+                <div class="review-container js-review-container d-none">
+                    <div class="row no-gutters">
+                        <div class="col-sm-2">
+                            <img class="review-image" src="https://app.resume-now.com//images/rn-document-home/review-icon.svg" alt="review-icon" />
+                        </div>
+                        <div class="col-sm-10">
+                            <div class="js-review-status">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    <h5 class="h5 doc-title" title="Jason _Harrison_Resume">Jason _Harrison_Resume</h5>
+    <p class="posted-on">
+        Last updated Today
+    </p>
+</div>
+            </div>
+            <div class="row doc-thumb-container js-grid-coverletter">
+                
+            </div>
+    </div>
+        <div class="document-services-container js-document-services-container d-none d-sm-block">
+            <div class="row">
+                <h2 class="col-sm-12 h2">Need help with writing your resume or cover letter?</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 text-center resume-review">
+                    <div class="bg-service-img review-service"></div>
+                    <h3 class="h3 js-resume-review-title">Resume Review</h3>
+                    <p class="txt js-resume-review-txt">Get expert advice on how you can make your resume shine!</p>
+                    <button type="button" class="btn btn-default js-resume-review" data-url="https://www.resume-now.com/payment/resume-review">FIND OUT MORE</button>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <div class="bg-service-img tuneup-service"></div>
+                    <h3 class="h3">Resume Tune-Up</h3>
+                    <p class="txt">Our professional writing team will polish your resume and make it stand out to employers.</p>
+                    <button type="button" class="btn btn-default js-resume-tune-up" data-url="https://www.resume-now.com/billing/resume-tuneup.aspx">FIND OUT MORE</button>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <div class="bg-service-img writing-service"></div>
+                    <h3 class="h3">Resume and Cover Letter Writing</h3>
+                    <p class="txt">
+                        Let us write it for you! Make a strong first
+                        impression with a professionally-written resume and cover letter.
+                    </p>
+                    <button type="button" class="btn btn-default js-doc-writting" data-url="https://www.resume-now.com/billing/resume-writing.aspx">FIND OUT MORE</button>
+                </div>
+            </div>
+        </div>
+        <input type="hidden" id="hdn_EnableResumeReviewPH2" value="true" />
+</div>
+<div class="d-xs-block d-md-none jt-mobile-info">
+    <h6 class="txt">
+        <strong>Job tools for mobile coming soon!</strong>
+        <br />To try them now, login at Resume-Now.com <br />from a desktop computer.
+    </h6>
+</div>
+
+
+<input type="hidden" id="hn_maindomain" value="https://www.resume-now.com/" />
+<input type="hidden" id="hn_link_editCLBuilder" value="https://www.resume-now.com/build-letter" />
+<input type="hidden" id="hdn_useruid" value="3b91fa10-85be-44e1-966b-38634f4bb3d9" />
+<input type="hidden" id="hdn_domainUrl" value="https://app.resume-now.com/" />
+<input type="hidden" id="userCreatedOn" value="1/1/0001 12:00:00 AM" />
+<input type="hidden" id="useremail" value="Mrharrison0509@gmail.com" />
+<input type="hidden" id="hdn_userCreatedOn" value="1/1/0001 12:00:00 AM" />
+
+<script src="https://app.resume-now.com//Scripts/common.js"></script>
+<script src="https://app.resume-now.com//Scripts/RN/dochome.js"></script>
+
+<!-- The Welcome Modal -->
+<div class="modal welcome-modal" id="doc-welcome-modal" data-docid="" data-uid="" data-docname="">
+    <div class="modal-dialog modal-dialog-centered modal-xs">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <span class="close js-survey-close" data-dismiss="modal"></span>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body text-center">
+                <h2 class="h2 title">Welcome Back<span id="js-survey-name"></span>!</h2>
+                <p class="txt">Would you be interested in helping us improve</p>
+                <p class="txt">our products by taking a 5 minute survey?</p>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer d-block text-center">
+                <button type="button" class="btn btn-modal-primary d-block js-start-survey">Start Survey</button>
+                <span class="btn btn-modal-default"><span data-dismiss="modal" class="js-no-thanks">No thanks</span></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- The Duplicate Modal -->
+<div class="modal" id="doc-duplicate-modal" data-docid="" data-uid="" data-docname="">
+    <div class="modal-dialog modal-dialog-centered modal-md">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <span class="close" data-dismiss="modal"></span>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body text-center">
+                <h2 class="h2 title">Duplicate Resume</h2>
+                <p class="txt pb-1">Please enter a name for the duplicate</p>
+                <p class="txt format js-duplicate-name-from mb-3"></p>
+                <input class="input-style js-duplicate-name" type="text" />
+                <p class="doc-error hidden js-duplicate-error"></p>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-modal-default" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-modal-primary js-confirm-duplicate">DUPLICATE</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- The Delete Modal -->
+<div class="modal" id="delete_modal">
+    <div class="modal-dialog modal-dialog-centered modal-md">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <span class="close" data-dismiss="modal"></span>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body text-center">
+                <h2 class="h2 title js-delete-text"></h2>
+                <p class="txt pb-1">Are you sure you want to delete</p>
+                <p class="txt format js-doc-name-text"></p>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-modal-default" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-modal-primary js-confirm-delete">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- The Rename Modal -->
+<div class="modal" id="rename_modal">
+    <div class="modal-dialog modal-dialog-centered modal-md">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <!-- Only Mobile -->
+                <span class="close d-none d-md-block" data-dismiss="modal"></span>
+                <div class="mobile-modal-head d-flex d-md-none">
+                    <span class="modal-txt" data-dismiss="modal">Cancel</span>
+                    <h6 class="h6 js-rename-text">Rename Your Resume</h6>
+                    <span class="modal-txt js-confirm-rename">save</span>
+                </div>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body ">
+                <!-- Desktop -->
+                <div class="d-none d-md-block text-center">
+                    <h2 class="h2 title js-rename-text"></h2>
+                    <p class="txt pb-1">Please enter a new name for</p>
+                    <p class="txt format js-doc-name-text mb-3"></p>
+                    <input class="input-style re-name" type="text" placeholder="Enter the new name here" />
+                    <p class="doc-error hidden js-rename-error"></p>
+                </div>
+                <!-- Mobile -->
+                <div class="d-block d-md-none text-left">
+                    <label class="title">Resume title</label>
+                    <input class="input-style re-name" type="text" placeholder="Enter the new name here" />
+                    <p class="doc-error hidden js-rename-error"></p>
+                </div>
+            </div>
+            <!-- Modal footer -->
+            <!-- Desktop -->
+            <div class="modal-footer d-none d-md-flex">
+                <button type="button" class="btn btn-modal-default" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-modal-primary js-confirm-rename">rename</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- The Download Modal -->
+<div class="modal" id="download_modal">
+    <div class="modal-dialog modal-dialog-centered modal-md modal-downlaod">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <span class="close" data-dismiss="modal"></span>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body text-center">
+                <h2 class="h2 title">Download</h2>
+                <p class="txt pb-1">Which format do you want to use?</p>
+                <section class="selected-format text-left pt-2">
+                    <label class="radio-label">
+                        Adobe PDF (.pdf)
+                        <input class="radio-input" type="radio" checked="checked" name="extension" value="PDF">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="radio-label">
+                        Plain text (.txt)
+                        <input class="radio-input" type="radio" name="extension" value="TXT">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="radio-label">
+                        MS word document (.docx)
+                        <input class="radio-input" type="radio" name="extension" value="DOCX">
+                        <span class="checkmark"></span>
+                    </label>
+                </section>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer modal-center-align-footer">
+                <button type="button" class="btn btn-modal-primary btn-modal-singlebtn js-confirm-download">Download</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- The email Modal -->
+
+<div class="modal" id="choose_email_format_modal">
+    <div class="modal-dialog modal-dialog-centered modal-md">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <span class="close" data-dismiss="modal"></span>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body text-center">
+                <h2 class="h2 title">Email</h2>
+                <p class="txt pb-1">Which format do you want to use?</p>
+                <section class="selected-format text-left pt-2">
+                    <label class="radio-label">
+                        Adobe PDF (.pdf)
+                        <input class="radio-input" type="radio" checked="checked" name="email_extension" value="PDF">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="radio-label">
+                        Plain text (.txt)
+                        <input class="radio-input" type="radio" name="email_extension" value="TXT">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="radio-label">
+                        MS word document (.docx)
+                        <input class="radio-input" type="radio" name="email_extension" value="DOCX">
+                        <span class="checkmark"></span>
+                    </label>
+                </section>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer modal-center-align-footer">
+                <button type="button" class="btn btn-modal-primary btn-modal-singlebtn js-confirm-email-attachment">Send</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------------------- To dynamically load the email content ---------------------------------------->
+
+<div class="modal js-send-email-modal" id="send_email_modal"></div>
+
+<div class="modal" id="confirmation_email_modal">
+    <div class="modal-dialog modal-dialog-centered modal-md">
+        <div class="modal-content p-3">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <span class="close" data-dismiss="modal"></span>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body text-center">
+                <h2 class="h2 title">Email</h2>
+                <p class="txt">Email sent! If you’d like to send it again, click <span class="link-style"><a id="js-resendEmailConfirm" href="javascript:void(0)">here</a></span></p>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer modal-center-align-footer">
+                <button type="button" class="btn btn-modal-primary" data-dismiss="modal">okay</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal js-preview-print-modal" id="preview_print_modal">
+</div>
+
+
+
+
+
+<!-- Mobile Rename Modal -->
+<div class="modal" id="mobile_rename_modal">
+    <div class="modal-dialog modal-dialog-centered modal-md h-100">
+        <div class="modal-content h-100">
+            <div class="modal-header">
+                <!-- Only Mobile -->
+                <div class="mobile-modal-head">
+                    <span class="modal-txt" data-dismiss="modal">Cancel</span>
+                    <h6 class="h6 js-rename-text">Rename Your Resume</h6>
+                    <span class="modal-txt js-confirm-rename">save</span>
+                </div>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body ">
+                <div class="d-block d-md-none text-left">
+                    <label class="title">Resume title</label>
+                    <input class="input-style re-name" type="text" placeholder="Enter the new name here" />
+                    <p class="doc-error hidden js-rename-error mobile-error"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal mobile-email-modal" id="mobile_email_modal">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content p-3">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <span class="close" data-dismiss="modal"></span>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body text-center">
+                <h2 class="h2 title js-user-full-name"></h2>
+                <h5 class="h5 txt js-doc-type-text"></h5>
+                <div class="pl-3 pr-3">
+                    <input class="input-style" type="text" id="emailTo" placeholder="Enter your Email Address" />
+                    <p class="doc-error hidden js-emailTo-error mobile-error"></p>
+                    <div class="select-list text-left">
+                        <label class="text-uppercase mb-1">format</label>
+                        <div class="dropdown-arrow">
+                            <select class="list-items">
+                                <option class="item-options" value="PDF">Adobe PDF (.pdf)</option>
+                                <option class="item-options" value="TXT">Plain text (.txt)</option>
+                                <option class="item-options" value="DOCX">MS word document (.docx)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-modal-primary js-send-email">Send</button>
+            </div>
+            <p class="tips text-center pl-4 pr-4 js-doc-type-tip-text"></p>
+        </div>
+    </div>
+</div>
+
+<div class="modal mobile-email-modal" id="mobile_send_confirmation_email_modal">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content p-3">
+            <!-- Modal Header -->
+            <div class="modal-header mb-5">
+                <span class="close" data-dismiss="modal"></span>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body text-center pl-4 pr-4">
+                <div class="pl-3 pr-3">
+                    <h2 class="h2 title js-user-full-name"></h2>
+                    <p class="txt mb-2 js-doc-type-text"></p>
+                    <p class="txt mb-2 js-user-to-email-address"></p>
+                    <p class="txt pt-2"><strong>Format: </strong><span class="js-email-format"></span></p>
+                </div>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer pl-4 pr-4">
+                <button type="button" class="btn btn-modal-primary" data-toggle="modal" data-dismiss="modal">ok</button>
+            </div>
+            <p class="tips text-center pl-4 pr-4 pb-8">If you do not receive an email from us within a few moments, pleae check your SPAM folder.</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+    <div class="overlay-loader js-overlay-loader">
+        <div class="loading-div">
+            <div class="rotating-child"></div>
+        </div>
+    </div>
+
+
+        <script type="text/javascript" src="https://www.resume-now.com//payment/scripts/rnaPrefetchScript.js?v=157"></script>
+</body>
+
+
+</html>
