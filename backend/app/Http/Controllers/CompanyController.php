@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+//test
 
 use App\Http\Traits\CommonTrait;
 use App\Http\Traits\CompanyTrait;
