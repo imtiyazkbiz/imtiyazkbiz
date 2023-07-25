@@ -1,3 +1,4 @@
+
 <template>
   <div class="content" v-loading.fullscreen.lock="loading">
     <base-header class="pb-6">
@@ -119,10 +120,23 @@
                 </el-table-column>
                 <el-table-column min-width="150px" label="Sharable Form Link">
                   <template slot-scope="props">
-                    <span>{{ props.row.formlink }}</span>
-                    
+                    <span>{{ props.row.formlink }}?companyEmail={{ props.row.companyemp}}</span>
+                
                   </template>
                 </el-table-column>
+
+                <el-table-column v-if="editor == 'employee'" min-width="150px" label="Action">
+                  <template slot-scope="props">
+                   
+                    <button
+                  role="link"
+                  @click="openInNewTab(props.row.combinelink)"
+                >
+                <span>Click Here to Submit</span>
+                </button>
+                  </template>
+                </el-table-column>
+
                
                 <el-table-column v-if="editor == 'super-admin' || editor == 'sub-admin'"  min-width="150px" label="Actions">
                   <div slot-scope="{ $index, row }" class="d-flex custom-size">
@@ -139,6 +153,7 @@
                         <i class="text-default fa fa-pencil-square-o  "></i>
                       </base-button>
                     </el-tooltip>
+                    
                     <el-tooltip v-if="canDelete" content="Delete" placement="top">
                       <base-button
                         @click.native="handleDelete($index, row)"
@@ -248,6 +263,7 @@ export default {
       video_index: 0,
       emp_id: "",
       comp_id:"",
+      company_email:"",
       status: [
         {
           label: "Active",
@@ -330,7 +346,11 @@ export default {
       this.setDefaultFilterData();
     }
     if (this.editor === "company") {
+      this.getLogo();
       this.fetchData();
+      
+          //this.logo1 = "";
+
       // this.$http
       //   .post("employees/tutorialVideo", {
       //     role: 1
@@ -351,8 +371,9 @@ export default {
       //   });
     }
     if (this.editor === "employee")  {
-      
+      this.getLogo();
       this.fetchData();
+      
       // this.$http
       //   .post("employees/tutorialVideo", {
       //     role: 2
@@ -449,6 +470,18 @@ export default {
         this.current_video_url = this.videos[index].video;
       }
     },
+    getLogo() {
+      this.$http.get("company/getlogo").then(resp => {
+        let data = resp.data[0];
+        console.log("function called")
+         if (data.email) {
+              this.company_email = data.email;
+          } else {
+              this.company_email = "";
+          }
+         return data.email;
+      });
+    },
     fetchData() {
       console.log("fetch data working!");
       
@@ -469,7 +502,16 @@ export default {
       //console.log(this.comp_id);
 
       this.loading = true;
-      this.$http
+
+      console.log("Innssrrrr");
+      this.getLogo();
+     
+
+      setTimeout(() => {
+        console.log(this.company_email);
+        console.log("Innssrrrrrrrttt");
+
+        this.$http
         .post(
           "employees/getjotform",
           {
@@ -480,17 +522,30 @@ export default {
           this.config
         )
         .then(resp => {
+          //console.log("testiiiiii")
+          //console.log(resp)
           this.tableData = [];
+         
+
           for (let vid of resp.data) {
             let obj = {
               id: vid.id,
-              formlink: vid.formlink
+              formlink: vid.formlink,
+              companyemp:this.company_email,
+              combinelink: vid.formlink+'?companyEmail='+this.company_email,
             };
             this.tableData.push(obj);
           }
         })
         .finally(() => (this.loading = false));
       this.saveSearchData();
+
+      }, 4000);
+
+      
+    },
+    openInNewTab(url) {
+      window.open(url, '_blank', 'noreferrer');
     },
     resetFilters() {
       this.searchQuery = "";
